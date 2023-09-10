@@ -5,11 +5,15 @@
   justify-content: center;
   gap: 100px;
   width: 100%;
+  min-height: 700px;
 }
-
+.teamWrapper  h1{
+    color: #ad58ff;
+}
 .teamBodyWrapper {
   position: relative;
   height: 85vh;
+    min-height: 700px;
 }
 .teamBgLineWrapper {
   width: 100%;
@@ -213,6 +217,7 @@
   }
   .teamBodyWrapper {
     height: 120vh;
+    
   }
   .teamBgLineWrapper {
     gap: 270px;
@@ -259,17 +264,36 @@
   }
 
   .team7 {
-    margin-top: 590px;
+    margin-top: 650px;
     left: 20%;
   }
 
   .team8 {
-    margin-top: 600px;
+    margin-top: 640px;
 
     left: 60%;
   }
 }
+@media screen and (max-width: 900px) {
 
+
+  .team7 {
+    margin-top: 620px;
+    left: 20%;
+  }
+
+  .team8 {
+    margin-top: 610px;
+
+    left: 60%;
+  }
+}
+@media screen and (max-height: 780px){
+  .teamBodyWrapper {
+    height: 930px;
+    
+  }
+}
 @media screen and (max-width: 780px) {
   .teamBodyWrapper {
     height: 105vh;
