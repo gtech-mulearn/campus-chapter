@@ -1,0 +1,91 @@
+.navbarWrapper {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0px 20px;
+  background-color: transparent;
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+}
+.navbarWrapper > div {
+  width: fit-content;
+}
+.navbar-left {
+  padding: 0px 35px;
+  background-color: transparent;
+}
+.navbar-right > div {
+  display: flex;
+  gap: 5vh;
+}
+.navbar-right > div > a > p {
+  text-transform: capitalize;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 5vh;
+  padding: 0px 35px;
+  background-color: transparent;
+}
+
+.navbar-right > button > a {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #6f6fff;
+  font-weight: 600;
+}
+
+.navbar-mobile {
+  display: none;
+  padding: 0px 35px;
+  background-color: transparent;
+  position: fixed;
+  right: 0;
+  top: 15px;
+}
+.navbar-mobile > div {
+  background-color: rgba(18, 153, 180, 0.7);
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 40vh;
+  width: 50vw;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar-mobile > div > a > p {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.navbar-mobile > div > button > a {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+/* 
+.navbar-mobile > button,
+.navbar-mobile > button > img {
+  background: transparent;
+} */
+
+@media screen and (max-width: 850px) {
+  .navbar-right {
+    display: none;
+  }
+  .navbar-mobile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+  }
+}

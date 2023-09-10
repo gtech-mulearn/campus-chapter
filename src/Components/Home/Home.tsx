@@ -6,9 +6,9 @@ const Home = () => {
 
 
   return (
-   <>
-   home
-   </>
+   <div className={styles.HomeWrapper}>
+   
+   </div>
   );
 };
 
