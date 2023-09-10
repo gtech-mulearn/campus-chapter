@@ -2,8 +2,8 @@ export const LinkedIn = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="26"
-      height="27"
+      width="22"
+      height="22"
       viewBox="0 0 26 27"
       fill="none"
     >
@@ -18,8 +18,8 @@ export const Instagram = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="29"
-      height="29"
+      width="22"
+      height="22"
       viewBox="0 0 29 29"
       fill="none"
     >
@@ -34,8 +34,8 @@ export const Twitter = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="29"
-      height="23"
+      width="22"
+      height="22"
       viewBox="0 0 29 23"
       fill="none"
     >
@@ -50,8 +50,8 @@ export const Facebook = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="15"
-      height="27"
+      width="22"
+      height="22"
       viewBox="0 0 15 27"
       fill="none"
     >

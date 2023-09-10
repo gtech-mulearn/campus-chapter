@@ -1,0 +1,49 @@
+.FooterWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3vh 5vw;
+  background-color: #ae59ff;
+  width: 100%;
+  gap: 20px;
+  color: white;
+}
+
+.topFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.topFooter>div{
+    display: flex;
+    gap: 20px;
+}
+
+.topFooter a,.topFooter p,.socialMedia a{
+    color: white;
+    font-weight: 400;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socialMedia a{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color:#D4A7FF ;
+}
