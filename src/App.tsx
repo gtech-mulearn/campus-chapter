@@ -1,5 +1,5 @@
 import "./App.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+// import { Helmet, HelmetProvider } from "react-helmet-async";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";

@@ -1,7 +1,12 @@
+.gallery {
+    padding-bottom: 3rem;
+}
+
 .gallery h2 {
     color: #ae59ff;
     font-size: 35px;
     text-align: center;
+    padding: 3rem;
 }
 .row {
     position: relative;
