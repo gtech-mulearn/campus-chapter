@@ -18,8 +18,8 @@ export const Discord = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="28"
-      height="21"
+      width="25"
+      height="25"
       viewBox="0 0 28 21"
       fill="none"
     >

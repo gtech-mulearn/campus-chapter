@@ -1,0 +1,65 @@
+.ConnectWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0vh 10vw 5vh;
+  gap: 25px;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  border: 2px solid #ae59ff;
+  border-radius: 10px;
+  height: 350px;
+}
+
+.ConnectWrapper h1{
+    color: #ae59ff;
+    font-size: 35px;
+}
+
+.innerContent {
+  padding: 4% 8%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.innerContent h2 {
+  font-size: 32px;
+}
+.innerContent p {
+  font-size: 25px;
+  color: #757575;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.socialMedia a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 8px 20px;
+  border-radius: 8px;
+   border: 2px solid #ae59ff;
+}
+
+.discord {
+  background-color: #ae59ff;
+  color: white;
+ 
+}
+.Whatsapp {
+color: #ae59ff;
+}
+.contentWrapper img {
+  height: 100%;
+}
