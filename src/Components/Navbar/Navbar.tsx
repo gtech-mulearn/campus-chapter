@@ -2,6 +2,8 @@ import styles from "./Navbar.module.css";
 import { useEffect, useState } from "react";
 import { ULearn } from "../../assets/svg/svg";
 import { useReactPath } from "./path.hook.ts";
+import {AiOutlineMenu} from 'react-icons/ai'
+
 const Navbar = () => {
   const [openmenu, setopenmenu] = useState(false);
   const [navbg, setNavBg] = useState(false);
@@ -23,24 +25,24 @@ const Navbar = () => {
   }, []);
   return (
     <div
-      className="navbarWrapper"
+      className={styles.navbarWrapper}
       style={{ background: navbg ? "rgba(255,255,255,0.4)" : "transparent" }}
     >
-      <div className="navbar-left">
+      <div className={styles.navbarLeft}>
         <a href="#home">
           <ULearn />
         </a>
       </div>
-      <div className="navbar-right">
+      <div className={styles.navbarRight}>
         <div>
           {navContent.map((content, i) => (
             <a href={`#${content}`} key={i.toString() + content}>
               <p
                 style={{
                   borderBottom: window.location.href.includes(`#${content}`)
-                    ? "8px solid #B3B3FF"
+                    ? "4px solid #B3B3FF"
                     : "",
-                  height: "12px",
+                  height: "16px",
                   fontSize: "18px",
                   fontWeight: 600,
                 }}
@@ -54,9 +56,9 @@ const Navbar = () => {
           <a href="http://app.mulearn.org">Join µlearn</a>
         </button>
       </div>
-      <div className="navbar-mobile">
+      <div className={styles.navbarMobile}>
         <button onClick={openMenu}>
-          <ULearn />
+          <AiOutlineMenu />
         </button>
         {openmenu && (
           <div>
@@ -67,7 +69,7 @@ const Navbar = () => {
                     borderBottom: window.location.href.includes(`#${content}`)
                       ? "4px solid #B3B3FF"
                       : "",
-                    height: "12px",
+                    height: "14px",
                   }}
                 >
                   {content}
