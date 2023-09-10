@@ -15,13 +15,13 @@
   height: 350px;
 }
 
-.ConnectWrapper h1{
-    color: #ae59ff;
-    font-size: 35px;
+.ConnectWrapper h1 {
+  color: #ae59ff;
+  font-size: 35px;
 }
 
 .innerContent {
-  padding: 4% 8%;
+  padding: 7% 8%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -49,17 +49,101 @@
   width: fit-content;
   padding: 8px 20px;
   border-radius: 8px;
-   border: 2px solid #ae59ff;
+  border: 2px solid #ae59ff;
+  font-size: 18px;
 }
 
 .discord {
   background-color: #ae59ff;
   color: white;
- 
 }
 .Whatsapp {
-color: #ae59ff;
+  color: #ae59ff;
 }
 .contentWrapper img {
   height: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  .ConnectWrapper {
+    padding: 0vh 8vw 5vh;
+  }
+
+  .contentWrapper {
+    height: 300px;
+  }
+  .innerContent {
+    padding: 7% 6%;
+  }
+  .innerContent h2 {
+    font-size: 28px;
+  }
+  .innerContent p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .ConnectWrapper {
+    padding: 0vh 7vw 5vh;
+  }
+
+  .contentWrapper {
+    height: 250px;
+  }
+  .innerContent {
+    padding: 7% 4%;
+  }
+  .innerContent h2 {
+    font-size: 25px;
+  }
+  .innerContent p {
+    font-size: 16px;
+  }
+  .socialMedia a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .ConnectWrapper {
+    padding: 0vh 6vw 5vh;
+  }
+
+  .innerContent h2 {
+    font-size: 24px;
+  }
+  .socialMedia {
+    gap: 10px;
+  }
+  .socialMedia a {
+    font-size: 15px;
+    padding: 6px 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contentWrapper {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+  }
+  .innerContent {
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    gap: 20px;
+  }
+  .contentWrapper img {
+    display: none;
+  }
+  .socialMedia {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 379px) {
+  .socialMedia a {
+    font-size: 16px;
+    width: 170px;
+  }
 }
