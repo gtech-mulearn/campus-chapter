@@ -1,8 +1,8 @@
 import styles from "./Team.module.css";
 
 import image from "./assets/member.svg";
-import line from "./assets/line.svg";
-import line2 from "./assets/line2.svg";
+import line from "./assets/line.png";
+import line2 from "./assets/line2.png";
 
 const Team = () => {
   return (
@@ -18,74 +18,74 @@ const Team = () => {
         <div className={styles.teamMembersDetailsWrapper}>
           <div className={`${styles.team} ${styles.team1}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
           <div className={`${styles.team} ${styles.team2}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
           <div className={`${styles.team} ${styles.team3}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
           <div className={`${styles.team} ${styles.team4}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
           <div className={`${styles.team} ${styles.team5}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
           <div className={`${styles.team} ${styles.team6}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
           <div className={`${styles.team} ${styles.team7}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
           <div className={`${styles.team} ${styles.team8}`}>
             <div className={styles.team1Img}>
-              <img className="team-image-individual" src={image} />
+              <img className={styles.teamImageIndividual} src={image} />
             </div>
-            <div className="team-name-designation">
-              <div className="team-member-name">Enric S Neelamkavil</div>
-              <div className="team-member-designation">Campus Lead</div>
+            <div className={styles.teamNameDesignation}>
+              <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
+              <div className={styles.teamMemberDesignation}>Campus Lead</div>
             </div>
           </div>
         </div>
