@@ -1,0 +1,22 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
