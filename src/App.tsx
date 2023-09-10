@@ -1,13 +1,19 @@
 import "./App.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Components/Home/Home";
+import Team from "./Components/Team/Team";
 
 function App() {
+
     return (
         <HelmetProvider>
             <Helmet>
-                <title>Test</title>
+                <title>{import.meta.env.VITE_TITLE}</title>
             </Helmet>
-            <h1>Test</h1>
+            <Navbar />
+			<Home />
+			<Team />
         </HelmetProvider>
     );
 }

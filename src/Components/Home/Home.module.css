@@ -1,0 +1,28 @@
+.home{
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.welcome{
+	font-size: 6em;
+	font-weight: 600;
+}
+
+.muverse{
+	font-size: 9em;
+	font-weight: 800;
+	position: absolute;
+	color: var(--primary);
+	bottom: -110px;
+}
+
+.college{
+	font-weight: 400;
+	position: absolute;
+	bottom: -110px;
+	left: 570px;
+}
