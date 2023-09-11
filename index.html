@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/Vector.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Official website of Unnathi - Realizing the Development Goals" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/Vector.png" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-    <style>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <style>
         #overlay {
             width: 100vw;
             height: 100vh;
@@ -25,50 +19,47 @@
             left: 0;
             gap: 10px;
         }
-
+    
         #overlay::-webkit-scrollbar {
             display: none;
             color: white;
         }
-
+    
         #overlay img {
             width: 300px;
             height: auto;
         }
-
+    
         .progress {
             width: 100.8px;
             height: 16.8px;
             border-radius: 16.8px;
-            background: repeating-linear-gradient(135deg, #AE59FF 0 8.4px, #d0b9e6 0 16.8px) left/0% 100% no-repeat,
+            background: repeating-linear-gradient(135deg, #FBBA16 0 8.4px, rgba(251, 186, 22, 0.5) 0 16.8px) left/0% 100% no-repeat,
                 repeating-linear-gradient(135deg, rgba(71, 75, 255, 0.2) 0 8.4px, rgba(71, 75, 255, 0.1) 0 16.8px) left/100% 100%;
             animation: progress-p43u5e 3s infinite;
         }
-
+    
         @keyframes progress-p43u5e {
             100% {
                 background-size: 100% 100%;
             }
         }
     </style>
-   
-    <title>Mulear Chapter</title>
-</head>
-
-<body>
-    <div id="overlay">
-       <img src="./Vector.png" alt="">
-        <div class="progress">
-
+    </head>
+    <body>
+        <div id="overlay">
+            <div class="progress">
+        
+            </div>
         </div>
-    </div>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script>
-        $(window).load(function () {
-            $('#overlay').hide();
-        });
-    </script>
-</body>
-
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+        <script>
+            $(window).load(function () {
+                $('#overlay').hide();
+            });
+        </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    </body>
 </html>
