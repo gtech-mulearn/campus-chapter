@@ -1,5 +1,6 @@
 .HomeWrapper {
   height: fit-content;
+  min-height: 100vh;
   width: 100%;
   background: linear-gradient(
       180deg,
@@ -43,10 +44,9 @@
   font-size: 1.5vw;
 }
 @media screen and (max-width: 900px) {
-    .contentWraper {
-
-  margin-top: 16vh;
-}
+  .contentWraper {
+    margin-top: 16vh;
+  }
   .contentWraper h1 {
     font-size: 9vw;
   }
@@ -58,5 +58,11 @@
   .contentWraper p {
     margin-top: -1vw;
     font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .contentWraper {
+    margin-top: 20vh;
   }
 }
