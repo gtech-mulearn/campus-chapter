@@ -6,14 +6,15 @@
   gap: 100px;
   width: 100%;
   min-height: 700px;
+  margin-top: 3vh;
 }
-.teamWrapper  h1{
-    color: #ad58ff;
+.teamWrapper h1 {
+  color: #ad58ff;
 }
 .teamBodyWrapper {
   position: relative;
   height: 85vh;
-    min-height: 700px;
+  min-height: 700px;
 }
 .teamBgLineWrapper {
   width: 100%;
@@ -49,7 +50,6 @@
   flex-direction: column;
   gap: 20px;
   position: absolute;
- 
 }
 .teamImageIndividual {
   height: 15rem;
@@ -217,7 +217,6 @@
   }
   .teamBodyWrapper {
     height: 120vh;
-    
   }
   .teamBgLineWrapper {
     gap: 270px;
@@ -275,8 +274,6 @@
   }
 }
 @media screen and (max-width: 900px) {
-
-
   .team7 {
     margin-top: 620px;
     left: 20%;
@@ -288,12 +285,7 @@
     left: 60%;
   }
 }
-@media screen and (max-height: 780px){
-  .teamBodyWrapper {
-    height: 930px;
-    
-  }
-}
+
 @media screen and (max-width: 780px) {
   .teamBodyWrapper {
     height: 105vh;
@@ -362,6 +354,7 @@
     left: 56%;
   }
 }
+
 
 @media screen and (max-width: 650px) {
   .teamWrapper {
@@ -432,6 +425,12 @@
   }
 }
 
+@media screen and (max-height: 600px) {
+  .teamBodyWrapper {
+    height: 850px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .team1 {
     margin-top: -120px;
@@ -489,9 +488,10 @@
     height: 8.5rem;
     width: 8.5rem;
   }
-  .teamNameDesignation {
-    font-size: 0.85rem;
+  .teamMemberName {
+    font-size: 0.9rem;
   }
+
   .team {
     width: 9rem;
   }
@@ -539,3 +539,24 @@
     left: 52%;
   }
 }
+@media screen and (max-width: 1200px) and (max-height: 780px) {
+  .teamBodyWrapper {
+    min-height: 1000px;
+  }
+}
+@media screen and (max-width: 600px) and (max-height: 800px) {
+    .teamBodyWrapper {
+    min-height: 920px;
+  }
+}
+@media screen and (max-width: 500px) and (max-height: 800px) {
+    .teamBodyWrapper {
+    min-height: 970px;
+  }
+}
+@media screen and (max-width: 400px) and (max-height: 800px) {
+    .teamBodyWrapper {
+    min-height: 920px;
+  }
+}
+

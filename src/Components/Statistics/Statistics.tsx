@@ -28,7 +28,7 @@ const Statistics = () => {
             <p>MINED</p>
           </div>
         </div>
-        <div>
+        <div className={styles.rightContainer}>
           <ULearn />
           <h2>Rank:120</h2>
         </div>

@@ -28,11 +28,13 @@
 
     box-shadow: 0px 0px 24.0251px 0px rgba(0, 0, 0, 0.1);
 
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 20px;
 }
 
 .card .content {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card .date,
@@ -44,15 +46,15 @@
 }
 
 .card .date {
-    font-size: 2.5rem;
+    font-size: 30px;
     border-right: #d6abfe 5px solid;
 }
 .card .text {
-    font-size: min(1.5rem, 5vw);
+    font-size: 20px;
 }
 
 .card img {
-    height: 125px;
+    height: 110px;
     border-radius: 10px;
 }
 
@@ -65,9 +67,11 @@
 .card.large img {
     height: 400px;
     width: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
-
+.card.large .text {
+    max-width: 300px;
+}
 .card.small {
     border-radius: 15px;
 }
@@ -80,5 +84,37 @@
     .events {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 670px) {
+    .card .date {
+        font-size: 25px;
+    }
+    .card .text {
+        font-size: 16px;
+    }
+    .card img {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .events {
+        padding: 0rem 10px;
+    }
+    .card.large img {
+        height: 340px;
+    }
+    .card {
+        padding: 5px 10px;
+    }
+    .card .date {
+        font-size: 23px;
+    }
+    .card .text {
+        font-size: 14px;
+    }
+    .card img {
+        height: 70px;
     }
 }
