@@ -57,7 +57,7 @@ const Navbar = () => {
         </button>
       </div>
       <div className={styles.navbarMobile}>
-        <button onClick={openMenu}>
+        <button onClick={openMenu} className={styles.hamburger}>
           <AiOutlineMenu />
         </button>
         {openmenu && (
@@ -69,7 +69,7 @@ const Navbar = () => {
                     borderBottom: window.location.href.includes(`#${content}`)
                       ? "4px solid #B3B3FF"
                       : "",
-                    height: "14px",
+                    height: "18px",
                   }}
                 >
                   {content}

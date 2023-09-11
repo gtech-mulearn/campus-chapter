@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={styles.AboutWrapper}>
+    <div id="about" className={styles.AboutWrapper}>
       <h1>About Us</h1>
       <p>
         But I must explain to you how all this mistaken idea of denouncing

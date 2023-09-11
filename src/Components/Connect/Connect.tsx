@@ -4,7 +4,7 @@ import { Discord,Whatsapp } from "./assets/svg";
 
 const Connect = () => {
   return (
-    <div className={styles.ConnectWrapper}>
+    <div id="contact" className={styles.ConnectWrapper}>
       <h1>Connect With Us</h1>
       <div className={styles.contentWrapper}>
         <div className={styles.innerContent}>

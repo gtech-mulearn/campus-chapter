@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .HomeWrapper img {
   width: 100%;
