@@ -1,83 +1,121 @@
 .events {
-    min-height: 100vh;
-    width: 100%;
+  min-height: 100vh;
+  width: 100%;
 
-    padding: 0rem 2rem;
+  padding: 0rem 2rem;
 
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: 1.5fr 2fr;
-    gap: 1rem 3rem;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1.5fr 2fr;
+  gap: 1rem 3rem;
 }
 
 .events h2 {
-    text-align: center;
-    align-self: center;
+  text-align: center;
+  align-self: center;
 
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 
-    color: #ae59ff;
-    font-size: 2rem;
+  color: #ae59ff;
+  font-size: 2rem;
 }
 
 .card {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
-    box-shadow: 0px 0px 24.0251px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 24.0251px 0px rgba(0, 0, 0, 0.1);
 
-    padding: 0.5rem 2rem;
+  padding: 0.5rem 20px;
 }
 
 .card .content {
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card .date,
 .card .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0rem min(2rem, 1vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem min(2rem, 1vw);
 }
 
 .card .date {
-    font-size: 2.5rem;
-    border-right: #d6abfe 5px solid;
+  font-size: 30px;
+  border-right: #d6abfe 5px solid;
 }
 .card .text {
-    font-size: min(1.5rem, 5vw);
+  font-size: 20px;
 }
 
 .card img {
-    height: 125px;
-    border-radius: 10px;
+  height: 110px;
+  border-radius: 10px;
 }
 
 .card.large {
-    grid-row: 3 span;
-    border-radius: 32.75px;
-    flex-wrap: wrap-reverse;
-    gap: 1rem;
+  grid-row: 3 span;
+  border-radius: 32.75px;
+  flex-wrap: wrap-reverse;
+  gap: 1rem;
 }
 .card.large img {
-    height: 400px;
-    width: 100%;
-    object-fit: fill;
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
 }
-
+.card.large .text {
+  max-width: 300px;
+}
 .card.small {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .card.small .text {
-    width: 75%;
+  width: 75%;
 }
 
 @media (max-width: 1000px) {
+  .events {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+@media screen and (max-width: 670px) {
+  .card .date {
+    font-size: 25px;
+  }
+  .card .text {
+    font-size: 16px;
+  }
+  .card img {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+
     .events {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+  padding: 0rem 10px;
+}
+    .card.large img {
+  height: 340px;
+
+}
+    .card  {
+        padding: 5px 10px;
     }
+      .card .date {
+    font-size: 23px;
+  }
+  .card .text {
+    font-size: 14px;
+  }
+  .card img {
+    height: 70px;
+  }
 }

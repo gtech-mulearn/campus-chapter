@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+
 * {
   scroll-behavior: smooth;
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: "Plus Jakarta Sans";
 }
 
 ::-webkit-scrollbar {
