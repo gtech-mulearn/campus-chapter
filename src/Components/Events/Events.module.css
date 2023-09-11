@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0rem 2rem;
+    padding: 0rem min(2rem, 1vw);
 }
 
 .card .date {
@@ -47,7 +47,7 @@
     border-right: #d6abfe 5px solid;
 }
 .card .text {
-    font-size: 1.5rem;
+    font-size: min(1.5rem, 5vw);
 }
 
 .card img {
