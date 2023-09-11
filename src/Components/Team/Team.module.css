@@ -1,0 +1,562 @@
+.teamWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 100%;
+  min-height: 700px;
+  margin-top: 3vh;
+}
+.teamWrapper h1 {
+  color: #ad58ff;
+}
+.teamBodyWrapper {
+  position: relative;
+  height: 85vh;
+  min-height: 700px;
+}
+.teamBgLineWrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 280px;
+}
+.teamBgLineWrapper > img {
+  width: 100%;
+}
+.teamBgLineWrapper > :nth-child(3),
+.teamBgLineWrapper > :nth-child(4) {
+  display: none;
+}
+
+.teamMembersDetailsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.team {
+  height: 20rem;
+  width: 15rem;
+  /* background-color: #2196da; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+}
+.teamImageIndividual {
+  height: 15rem;
+  object-fit: contain;
+  position: relative;
+  vertical-align: top;
+  width: 15rem;
+}
+.teamNameDesignation {
+  height: fit-content;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teamMemberName {
+  color: #000000;
+  display: flex;
+  font-weight: 700;
+  height: fit-content;
+  justify-content: center;
+  width: fit-content;
+  font-size: 1.5rem;
+}
+.teamMemberDesignation {
+  color: #ad58ff;
+  display: flex;
+  font-size: 1.3rem;
+
+  font-weight: 500;
+  height: fit-content;
+  justify-content: center;
+  top: 2rem;
+  width: fit-content;
+}
+.team1Img {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 15rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.team1 {
+  margin-top: -30px;
+  top: 0;
+  left: 5%;
+}
+
+.team2 {
+  margin-top: -50px;
+
+  top: 0;
+  left: 28%;
+}
+
+.team3 {
+  margin-top: -60px;
+
+  top: 0;
+  left: 50%;
+}
+
+.team4 {
+  margin-top: -10px;
+
+  top: 0;
+  left: 74%;
+}
+
+.team5 {
+  margin-top: 350px;
+
+  top: 100%;
+  left: 7%;
+}
+
+.team6 {
+  margin-top: 400px;
+
+  top: 100%;
+  left: 30%;
+}
+
+.team7 {
+  margin-top: 430px;
+  top: 100%;
+  left: 54%;
+}
+
+.team8 {
+  margin-top: 360px;
+
+  top: 100%;
+  left: 77%;
+}
+@media screen and (max-width: 1650px) {
+  .teamBodyWrapper {
+    height: 95vh;
+  }
+  .teamBgLineWrapper {
+    gap: 260px;
+  }
+  .team1 {
+    margin-top: -50px;
+    top: 0;
+    left: 5%;
+  }
+
+  .team2 {
+    margin-top: -70px;
+
+    top: 0;
+    left: 28%;
+  }
+
+  .team3 {
+    margin-top: -60px;
+
+    top: 0;
+    left: 50%;
+  }
+
+  .team4 {
+    margin-top: -50px;
+
+    top: 0;
+    left: 74%;
+  }
+
+  .team5 {
+    margin-top: 300px;
+
+    top: 100%;
+    left: 7%;
+  }
+
+  .team6 {
+    margin-top: 330px;
+
+    top: 100%;
+    left: 30%;
+  }
+
+  .team7 {
+    margin-top: 350px;
+    top: 100%;
+    left: 54%;
+  }
+
+  .team8 {
+    margin-top: 310px;
+
+    top: 100%;
+    left: 77%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .teamWrapper {
+    margin-top: 50px;
+    gap: 100px;
+  }
+  .teamBodyWrapper {
+    height: 120vh;
+  }
+  .teamBgLineWrapper {
+    gap: 270px;
+  }
+  .teamBgLineWrapper > :nth-child(3) {
+    display: block;
+  }
+  .teamImageIndividual {
+    height: 12rem;
+    width: 12rem;
+  }
+  .team1 {
+    margin-top: -70px;
+    left: 3%;
+  }
+
+  .team2 {
+    margin-top: -100px;
+    left: 37%;
+  }
+
+  .team3 {
+    margin-top: -60px;
+    left: 69%;
+  }
+
+  .team4 {
+    margin-top: 230px;
+
+    top: 100%;
+    left: 4%;
+  }
+
+  .team5 {
+    margin-top: 280px;
+
+    left: 37%;
+  }
+
+  .team6 {
+    margin-top: 245px;
+
+    left: 68%;
+  }
+
+  .team7 {
+    margin-top: 650px;
+    left: 20%;
+  }
+
+  .team8 {
+    margin-top: 640px;
+
+    left: 60%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .team7 {
+    margin-top: 620px;
+    left: 20%;
+  }
+
+  .team8 {
+    margin-top: 610px;
+
+    left: 60%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .teamBodyWrapper {
+    height: 105vh;
+  }
+  .teamBgLineWrapper > :nth-child(3) {
+    display: block;
+  }
+  .teamBgLineWrapper {
+    gap: 250px;
+  }
+  .teamImageIndividual {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .teamMemberName {
+    font-size: 1rem;
+  }
+  .teamMemberDesignation {
+    font-size: 1rem;
+  }
+  .team {
+    width: 12.3rem;
+  }
+  .team1 {
+    margin-top: -100px;
+    left: 3%;
+  }
+
+  .team2 {
+    margin-top: -120px;
+    left: 35%;
+  }
+
+  .team3 {
+    margin-top: -80px;
+    left: 65%;
+  }
+
+  .team4 {
+    margin-top: 160px;
+
+    left: 4%;
+  }
+
+  .team5 {
+    margin-top: 220px;
+
+    left: 36%;
+  }
+
+  .team6 {
+    margin-top: 190px;
+
+    left: 65%;
+  }
+
+  .team7 {
+    margin-top: 520px;
+    left: 20%;
+  }
+
+  .team8 {
+    margin-top: 530px;
+
+    left: 56%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .teamWrapper {
+    overflow: hidden;
+  }
+  .teamBodyWrapper {
+    height: 120vh;
+  }
+  .teamBgLineWrapper > :nth-child(4) {
+    display: block;
+  }
+  .teamBgLineWrapper {
+    width: 100%;
+    gap: 220px;
+  }
+
+  .teamNameDesignation {
+    font-size: 1rem;
+  }
+  .team {
+    width: 10rem;
+  }
+  .team1 {
+    margin-top: -120px;
+    top: 0;
+    left: 15%;
+  }
+
+  .team2 {
+    margin-top: -120px;
+    top: 0%;
+    left: 60%;
+  }
+
+  .team3 {
+    margin-top: 130px;
+    top: 0;
+    left: 14%;
+  }
+
+  .team4 {
+    margin-top: 150px;
+
+    left: 59%;
+  }
+
+  .team5 {
+    margin-top: 430px;
+
+    left: 16%;
+  }
+
+  .team6 {
+    margin-top: 420px;
+
+    left: 60%;
+  }
+
+  .team7 {
+    margin-top: 680px;
+    left: 15%;
+  }
+
+  .team8 {
+    margin-top: 690px;
+
+    left: 60%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .teamBodyWrapper {
+    height: 850px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team1 {
+    margin-top: -120px;
+    top: 0;
+    left: 7%;
+  }
+
+  .team2 {
+    margin-top: -120px;
+    top: 0%;
+    left: 52%;
+  }
+
+  .team3 {
+    margin-top: 130px;
+    top: 0;
+    left: 8%;
+  }
+
+  .team4 {
+    margin-top: 140px;
+
+    left: 53%;
+  }
+
+  .team5 {
+    margin-top: 400px;
+
+    left: 6%;
+  }
+
+  .team6 {
+    margin-top: 390px;
+
+    left: 51%;
+  }
+
+  .team7 {
+    margin-top: 650px;
+    left: 7%;
+  }
+
+  .team8 {
+    margin-top: 650px;
+
+    left: 52%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .teamBodyWrapper {
+    height: 115vh;
+  }
+  .teamImageIndividual {
+    height: 8.5rem;
+    width: 8.5rem;
+  }
+  .teamMemberName {
+    font-size: 0.9rem;
+  }
+
+  .team {
+    width: 9rem;
+  }
+  .team1 {
+    margin-top: -130px;
+    left: 7%;
+  }
+
+  .team2 {
+    margin-top: -140px;
+    left: 51%;
+  }
+
+  .team3 {
+    margin-top: 120px;
+    left: 8%;
+  }
+
+  .team4 {
+    margin-top: 130px;
+
+    left: 52%;
+  }
+
+  .team5 {
+    margin-top: 380px;
+
+    left: 7%;
+  }
+
+  .team6 {
+    margin-top: 370px;
+
+    left: 51%;
+  }
+
+  .team7 {
+    margin-top: 620px;
+    left: 8%;
+  }
+
+  .team8 {
+    margin-top: 630px;
+
+    left: 52%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 780px) {
+  .teamBodyWrapper {
+    min-height: 1000px;
+  }
+}
+@media screen and (max-width: 600px) and (max-height: 800px) {
+    .teamBodyWrapper {
+    min-height: 920px;
+  }
+}
+@media screen and (max-width: 500px) and (max-height: 800px) {
+    .teamBodyWrapper {
+    min-height: 970px;
+  }
+}
+@media screen and (max-width: 400px) and (max-height: 800px) {
+    .teamBodyWrapper {
+    min-height: 920px;
+  }
+}
+

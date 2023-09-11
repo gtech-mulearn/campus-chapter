@@ -1,0 +1,101 @@
+.navbarWrapper {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 20px;
+  background-color: transparent;
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+  top: 0;
+}
+
+.navbarWrapper a{
+    color: black;
+    font-weight: 400;
+}
+.navbarWrapper button{
+    background: none;
+    border: none;
+}
+.navbarWrapper > div {
+  width: fit-content;
+}
+.navbarLeft {
+  padding: 0px 35px;
+  background-color: transparent;
+}
+.navbarRight > div {
+  display: flex;
+  gap: 5vh;
+}
+.navbarRight > div > a > p {
+  text-transform: capitalize;
+}
+.navbarRight {
+  display: flex;
+  align-items: center;
+  gap: 5vh;
+  padding: 0px 35px;
+  background-color: transparent;
+}
+
+.navbarRight > button > a {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #6f6fff;
+  font-weight: 400;
+}
+
+.navbarMobile {
+  display: none;
+  padding: 0px 35px;
+  background-color: transparent;
+  position: fixed;
+  right: 0;
+  top: 15px;
+}
+.navbarMobile > div {
+  background-color: rgba(18, 153, 180, 0.7);
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 40vh;
+  width: 50vw;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbarMobile > div > a > p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.navbarMobile > div > button > a {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+/* 
+.navbarMobile > button,
+.navbarMobile > button > img {
+  background: transparent;
+} */
+
+@media screen and (max-width: 850px) {
+  .navbarRight {
+    display: none;
+  }
+  .navbarMobile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+  }
+}
