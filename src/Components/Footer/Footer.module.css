@@ -47,3 +47,13 @@
     height: 2px;
     background-color:#D4A7FF ;
 }
+
+.FooterWrapper .ptag{
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}

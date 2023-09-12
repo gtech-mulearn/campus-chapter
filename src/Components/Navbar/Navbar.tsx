@@ -42,7 +42,7 @@ const Navbar = () => {
                   borderBottom: window.location.href.includes(`#${content}`)
                     ? "4px solid #B3B3FF"
                     : "",
-                  height: "16px",
+                  height: "18px",
                   fontSize: "18px",
                   fontWeight: 600,
                 }}
