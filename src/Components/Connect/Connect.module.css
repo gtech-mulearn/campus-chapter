@@ -103,12 +103,10 @@
     font-size: 16px;
   }
 }
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 820px) {
   .ConnectWrapper {
     padding: 0vh 6vw 5vh;
   }
-
   .innerContent h2 {
     font-size: 24px;
   }
@@ -120,12 +118,22 @@
     padding: 6px 12px;
   }
 }
+@media screen and (max-width: 740px) {
+  .innerContent {
+    padding: 7% 3%;
+  }
+  .socialMedia a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .contentWrapper {
     flex-direction: column;
     height: fit-content;
     align-items: center;
+    width: 100%;
   }
   .innerContent {
     align-items: center;
@@ -134,7 +142,8 @@
     gap: 20px;
   }
   .contentWrapper img {
-    display: none;
+    height: auto;
+    width: 100%;
   }
   .socialMedia {
     flex-wrap: wrap;

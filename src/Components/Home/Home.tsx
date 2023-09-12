@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import image from "./assets/homeimg.svg";
-import { BlueStar, WhiteStar,Mu } from "./assets/svg";
+import { BlueStar, WhiteStar, Mu } from "./assets/svg";
 
 const Home = () => {
   return (
@@ -23,8 +23,17 @@ const Home = () => {
       <div className={styles.start4}>
         <WhiteStar size="40px" />
       </div>{" "}
-      <div className={styles.start4}>
-        <Mu size="40px" />
+      <div className={styles.start5}>
+        <Mu size="23vw" rotate="30deg" />
+      </div>
+      <div className={styles.start6}>
+        <Mu size="15vw" rotate="30deg" />
+      </div>{" "}
+      <div className={styles.start7}>
+        <Mu size="15vw" rotate="-10deg" />
+      </div>{" "}
+      <div className={styles.start8}>
+        <Mu size="7vw" rotate="-10deg" />
       </div>
     </div>
   );

@@ -39,11 +39,13 @@ export const WhiteStar = (size: any) => {
 export const Mu = (size: any) => {
   console.log(size.size);
   var l = size.size;
+  var r = size.rotate
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={l}
       height={l}
+      style={{rotate:r}}
       viewBox="0 0 114 132"
       fill="none"
     >

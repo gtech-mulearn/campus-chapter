@@ -2,18 +2,14 @@
   height: fit-content;
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(
-      180deg,
-      #ae59ff -42.89%,
-      rgba(217, 217, 217, 0) 100%
-    ),
-    linear-gradient(180deg, #ae59ff -42.89%, rgba(217, 217, 217, 0) 100%);
+  background: linear-gradient(180deg, #c18bf5 0%, #fff 68.23%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   position: relative;
   gap: 3vh;
+  overflow: hidden;
 }
 .HomeWrapper img {
   width: 100%;
@@ -24,6 +20,8 @@
   flex-direction: column;
   align-items: center;
   margin-top: 20vh;
+  position: relative;
+  z-index: 9900;
 }
 
 .contentWraper h1 {
@@ -120,9 +118,33 @@
   left: 27%;
   top: 12%;
 }
-.start4{
-   position: absolute;
+.start4 {
+  position: absolute;
   z-index: 7000;
   right: 27%;
   top: 28%;
+}
+.start5 {
+  position: absolute;
+  z-index: 0;
+  right: 45%;
+  top: 8%;
+}
+.start6 {
+  position: absolute;
+  z-index: 0;
+  left: -5%;
+  top: 30%;
+}
+.start7 {
+  position: absolute;
+  z-index: 0;
+  right: -5%;
+  top: 30%;
+}
+.start8 {
+  position: absolute;
+  z-index: 0;
+  right: 14%;
+  top: 15%;
 }
