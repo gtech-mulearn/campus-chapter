@@ -4,31 +4,33 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0px 20px;
+  padding: 10px 0px 10px;
   background-color: transparent;
   z-index: 9999;
   backdrop-filter: blur(8px);
   top: 0;
 }
 
-.navbarWrapper a{
-    color: black;
-    font-weight: 400;
+.navbarWrapper a {
+  color: black;
+  font-weight: 400;
 }
-.navbarWrapper button{
-    background: none;
-    border: none;
+.navbarWrapper button {
+  background: none;
+  border: none;
 }
 .navbarWrapper > div {
   width: fit-content;
 }
 .navbarLeft {
-  padding: 0px 35px;
+  padding: 10px 35px 0px;
   background-color: transparent;
 }
 .navbarRight > div {
   display: flex;
   gap: 5vh;
+  align-items: center;
+  justify-content: center;
 }
 .navbarRight > div > a > p {
   text-transform: capitalize;
@@ -39,6 +41,8 @@
   gap: 5vh;
   padding: 0px 35px;
   background-color: transparent;
+  justify-content: center;
+
 }
 
 .navbarRight > button > a {
@@ -58,13 +62,14 @@
   top: 15px;
 }
 .navbarMobile > div {
-  background-color: rgba(18, 153, 180, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 9999;
   backdrop-filter: blur(8px);
   padding: 8px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 5px;
   height: 40vh;
   width: 50vw;
@@ -81,7 +86,10 @@
   color: white;
   font-size: 20px;
   font-weight: 400;
+}
 
+.hamburger {
+  font-size: 30px;
 }
 /* 
 .navbarMobile > button,
