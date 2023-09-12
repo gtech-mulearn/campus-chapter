@@ -10,15 +10,19 @@ const Team = () => {
       <h1>Our Team</h1>
       <div className={styles.teamBodyWrapper}>
         <div className={styles.teamBgLineWrapper}>
-          <img src={line} alt="" />
-          <img src={line2} alt="" />
-          <img src={line} alt="" />
-          <img src={line2} alt="" />
+          <img src={line} alt="" loading="lazy" />
+          <img src={line2} alt="" loading="lazy" />
+          <img src={line} alt="" loading="lazy" />
+          <img src={line2} alt="" loading="lazy" />
         </div>
         <div className={styles.teamMembersDetailsWrapper}>
           <div className={`${styles.team} ${styles.team1}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
@@ -27,7 +31,11 @@ const Team = () => {
           </div>
           <div className={`${styles.team} ${styles.team2}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
@@ -36,7 +44,11 @@ const Team = () => {
           </div>
           <div className={`${styles.team} ${styles.team3}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
@@ -45,7 +57,11 @@ const Team = () => {
           </div>
           <div className={`${styles.team} ${styles.team4}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
@@ -54,7 +70,11 @@ const Team = () => {
           </div>
           <div className={`${styles.team} ${styles.team5}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
@@ -63,7 +83,11 @@ const Team = () => {
           </div>
           <div className={`${styles.team} ${styles.team6}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
@@ -72,7 +96,11 @@ const Team = () => {
           </div>
           <div className={`${styles.team} ${styles.team7}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>
@@ -81,7 +109,11 @@ const Team = () => {
           </div>
           <div className={`${styles.team} ${styles.team8}`}>
             <div className={styles.team1Img}>
-              <img className={styles.teamImageIndividual} src={image} />
+              <img
+                className={styles.teamImageIndividual}
+                src={image}
+                loading="lazy"
+              />
             </div>
             <div className={styles.teamNameDesignation}>
               <div className={styles.teamMemberName}>Enric S Neelamkavil</div>

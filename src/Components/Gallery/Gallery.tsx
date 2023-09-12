@@ -12,33 +12,29 @@ const Gallery = () => {
     };
 
     return (
-        <div className={styles.gallery}>
-            <h2>Memories</h2>
-            <div className={styles.row}>
-                <Marquee {...marqParams} style={{ width: "100vw" }}>
-                    {row1.map((src) => (
-                        <div className={styles.imgContainer}>
-                            <img src={src} />
-                        </div>
-                        //
-                    ))}
-                </Marquee>
-            </div>
-            <div className={styles.row}>
-                <Marquee
-                    direction="right"
-                    {...marqParams}
-                    style={{ width: "100vw" }}
-                >
-                    {row2.map((src) => (
-                        <div className={styles.imgContainer}>
-                            <img src={src} />
-                        </div>
-                        //
-                    ))}
-                </Marquee>
-            </div>
+      <div className={styles.gallery}>
+        <h2>Memories</h2>
+        <div className={styles.row}>
+          <Marquee {...marqParams} style={{ width: "100vw" }}>
+            {row1.map((src) => (
+              <div className={styles.imgContainer}>
+                <img src={src} loading="lazy" />
+              </div>
+              //
+            ))}
+          </Marquee>
         </div>
+        <div className={styles.row}>
+          <Marquee direction="right" {...marqParams} style={{ width: "100vw" }}>
+            {row2.map((src) => (
+              <div className={styles.imgContainer}>
+                <img src={src} loading="lazy"/>
+              </div>
+              //
+            ))}
+          </Marquee>
+        </div>
+      </div>
     );
 };
 
