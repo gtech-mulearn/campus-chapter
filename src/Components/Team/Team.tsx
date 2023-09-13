@@ -1,5 +1,4 @@
 import styles from "./Team.module.css";
-import image from "./assets/member.svg";
 import line from "./assets/line.png";
 import line2 from "./assets/line2.png";
 import data from "../../../data.json"
