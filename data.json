@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "month": "Sep",
+            "date": "29",
+            "head": "Event 1",
+            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+        },
+        {
+            "month": "Sep",
+            "date": "27",
+            "head": "Opportunities in TCS EIS",
+            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+        },
+        {
+            "month": "Sep",
+            "date": "26",
+            "head": "Opportunities in TCS EIS",
+            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+        },
+        {
+            "month": "Sep",
+            "date": "25",
+            "head": "Opportunities in TCS EIS",
+            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+        }
+    ],
+
+
+    "products": [
+        { "id": 101, "name": "Laptop" },
+        { "id": 102, "name": "Phone" }
+    ]
+}

@@ -1,5 +1,7 @@
 import styles from "./Events.module.css";
 import img from "./assets/a4b43559a5f3a8b9a7986a561e1a9619.png";
+import data from "../../../data.json";
+
 const Events = () => {
     const mainCard = {
         month: "Sep",
@@ -38,30 +40,33 @@ const Events = () => {
             <div className={styles.card + " " + styles.large}>
                 <div className={styles.content}>
                     <div className={styles.date}>
-                        <span>{mainCard.month}</span>
-                        <span>{mainCard.date}</span>
+                        <span>{data["events"][0].month}</span>
+                        <span>{data["events"][0].date}</span>
                     </div>
                     <div className={styles.text}>
-                        <strong>{mainCard.head}</strong>
-                        <span>{mainCard.para}</span>
+                        <strong>{data["events"][0].head}</strong>
+                        <span>{data["events"][0].para}</span>
                     </div>
                 </div>
-                <img src={mainCard.img} alt="" />
+                <img src={data["events"][0].img} alt="" />
             </div>
-            {cardData.map((data) => {
+            {data.events.slice(1).map((event, index) => {
                 return (
-                    <div className={styles.card + " " + styles.small}>
+                    <div
+                        className={styles.card + " " + styles.small}
+                        key={index}
+                    >
                         <div className={styles.content}>
                             <div className={styles.date}>
-                                <span>{data.month}</span>
-                                <span>{data.date}</span>
+                                <span>{event.month}</span>
+                                <span>{event.date}</span>
                             </div>
                             <div className={styles.text}>
-                                <strong>{data.head}</strong>
-                                <span>{data.para}</span>
+                                <strong>{event.head}</strong>
+                                <span>{event.para}</span>
                             </div>
                         </div>
-                        <img src={data.img} alt="" />
+                        <img src={event.img} alt="" />
                     </div>
                 );
             })}
