@@ -43,6 +43,7 @@
   margin-top: -15px;
   font-family: 'Poppins';
   color: #9042EB;
+  text-transform: uppercase;
 }
 .navbarRight > div {
   display: flex;

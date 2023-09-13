@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className={styles.navbarLeft}>
                 <a href="#home">
                     <ULearn />
-                    <p>CCE</p>
+                    <p>cce</p>
                 </a>
             </div>
             <div className={styles.navbarRight}>

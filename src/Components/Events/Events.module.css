@@ -125,6 +125,10 @@
     max-width: 400px;
     width: 90%;
   }
+  .card.small {
+  max-width: 550px;
+
+}
 }
 
 @media screen and (max-width: 500px) {

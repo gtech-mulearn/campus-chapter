@@ -28,7 +28,7 @@ const Team = () => {
                                 {data.team[0].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                {data.team[0].position}
+                                Staff Advisor
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const Team = () => {
                                 {data.team[2].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Campus Lead
+                                Campus Co-Lead
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ const Team = () => {
                                 {data.team[3].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Campus Lead
+                               Treasurer
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const Team = () => {
                                 {data.team[4].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Campus Lead
+                                Technical Lead
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const Team = () => {
                                 {data.team[5].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Campus Lead
+                                Media Lead
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@ const Team = () => {
                                 {data.team[6].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Campus Lead
+                                Content Lead
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ const Team = () => {
                                 {data.team[7].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Campus Lead
+                                Operation Lead
                             </div>
                         </div>
                     </div>
