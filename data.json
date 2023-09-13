@@ -55,8 +55,68 @@
         ]
     },
 
-    "galler": [
-        { "id": 101, "name": "Laptop" },
-        { "id": 102, "name": "Phone" }
-    ]
+    "statistics": {
+		"studentsCount": "30+",
+		"learningCircles": "10+",
+		"InterestGroups": "05+",
+		"karmaEarned": "60k+",
+		"rank": "28"
+	},
+
+	"team": [
+        {
+            "position": "Campus Lead",
+            "name": "Enric S Neelamkavil",
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        },
+        {
+            "position": "Campus Lead",
+            "name": "Elon Musk",
+            "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
+        },
+        {
+            "position": "Campus Lead",
+            "name": "Enric S Neelamkavil",
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        },
+        {
+            "position": "Campus Lead",
+            "name": "Enric S Neelamkavil",
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        },
+        {
+            "position": "Campus Lead",
+            "name": "Enric S Neelamkavil",
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        },
+        {
+            "position": "Campus Lead",
+            "name": "Enric S Neelamkavil",
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        },
+        {
+            "position": "Campus Lead",
+            "name": "Enric S Neelamkavil",
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        },
+        {
+            "position": "Campus Lead",
+            "name": "Enric S Neelamkavil",
+            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        }
+    ],
+
+	"discordLink": "",
+	
+	"whatsAppLink": "",
+
+	"email": "mulearn@cce.edu.in",
+
+	"linkedIn": "",
+
+	"instagram": "",
+
+	"twitter": "",
+
+	"facebook": ""
 }

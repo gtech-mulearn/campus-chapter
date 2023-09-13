@@ -1,8 +1,8 @@
 import styles from "./Team.module.css";
-
 import image from "./assets/member.svg";
 import line from "./assets/line.png";
 import line2 from "./assets/line2.png";
+import data from "../../../data.json"
 
 const Team = () => {
     return (
@@ -20,16 +20,16 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[0].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[0].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Campus Lead
+                                {data.team[0].position}
                             </div>
                         </div>
                     </div>
@@ -37,13 +37,13 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[1].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[1].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Campus Lead
@@ -54,13 +54,13 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[2].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[2].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Campus Lead
@@ -71,13 +71,13 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[3].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[3].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Campus Lead
@@ -88,13 +88,13 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[4].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[4].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Campus Lead
@@ -105,13 +105,13 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[5].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[5].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Campus Lead
@@ -122,13 +122,13 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[6].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[6].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Campus Lead
@@ -139,13 +139,13 @@ const Team = () => {
                         <div className={styles.team1Img}>
                             <img
                                 className={styles.teamImageIndividual}
-                                src={image}
+                                src={data.team[7].image}
                                 loading="lazy"
                             />
                         </div>
                         <div className={styles.teamNameDesignation}>
                             <div className={styles.teamMemberName}>
-                                Enric S Neelamkavil
+                                {data.team[7].name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
                                 Campus Lead

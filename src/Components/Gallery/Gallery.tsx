@@ -1,11 +1,8 @@
 import Marquee from "react-fast-marquee";
 import styles from "./Gallery.module.css";
-import assets from "./assets";
 import data from '../../../data.json'
 
 const Gallery = () => {
-    const row1 = [assets.img1, assets.img2];
-    const row2 = [assets.img3, assets.img4];
     const marqParams = {
         autoFill: true,
         pauseOnHover: true,
