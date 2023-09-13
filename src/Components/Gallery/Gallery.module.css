@@ -1,0 +1,25 @@
+.gallery {
+    padding-bottom: 3rem;
+}
+
+.gallery h2 {
+    color: #ae59ff;
+    font-size: 35px;
+    text-align: center;
+    padding: 3rem;
+}
+.row {
+    position: relative;
+}
+
+.imgContainer {
+    padding: 0.5rem;
+    height: 325px;
+    width: 450px;
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}

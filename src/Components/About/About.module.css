@@ -1,0 +1,36 @@
+.AboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  padding: 5vh 5%;
+  width: 100%;
+}
+
+.AboutWrapper h1 {
+  color: #ae59ff;
+  font-size: 35px;
+}
+
+.AboutWrapper p {
+  font-size: 20px;
+}
+@media screen and (max-width: 900px) {
+  .AboutWrapper p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .AboutWrapper {
+    gap: 15px;
+    padding: 3vh 5%;
+  }
+  .AboutWrapper h1 {
+    font-size: 28px;
+  }
+  .AboutWrapper p {
+    font-size: 15px;
+  }
+}

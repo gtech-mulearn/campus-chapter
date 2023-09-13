@@ -1,49 +1,109 @@
-.navContainer{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 30px 40px; 
-	position: fixed;
-	z-index: 100;
-	width: 93%;
+.navbarWrapper {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 10px;
+  background-color: transparent;
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+  top: 0;
 }
 
-.logo{
-	width: 8rem;
+.navbarWrapper a {
+  color: black;
+  font-weight: 400;
+}
+.navbarWrapper button {
+  background: none;
+  border: none;
+}
+.navbarWrapper > div {
+  width: fit-content;
+}
+.navbarLeft {
+  padding: 10px 35px 0px;
+  background-color: transparent;
+}
+.navbarRight > div {
+  display: flex;
+  gap: 5vh;
+  align-items: center;
+  justify-content: center;
+}
+.navbarRight > div > a > p {
+  text-transform: capitalize;
+}
+.navbarRight {
+  display: flex;
+  align-items: center;
+  gap: 5vh;
+  padding: 0px 35px;
+  background-color: transparent;
+  justify-content: center;
+
 }
 
-.logoConatiner{
-	position: relative;
+.navbarRight > button > a {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #6f6fff;
+  font-weight: 400;
 }
 
-.collegeCode{
-	position: absolute;
-	top: 9px;
-	right: 0px;
-	color: var(--primary);
-	font-weight: 800;
-	font-size: 12px;
+.navbarMobile {
+  display: none;
+  padding: 0px 35px;
+  background-color: transparent;
+  position: fixed;
+  right: 0;
+  top: 15px;
+}
+.navbarMobile > div {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  height: 40vh;
+  width: 50vw;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbarMobile > div > a > p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.navbarMobile > div > button > a {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.nav{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 40px;
+.hamburger {
+  font-size: 30px;
 }
+/* 
+.navbarMobile > button,
+.navbarMobile > button > img {
+  background: transparent;
+} */
 
-.nav a{
-	text-decoration: none;
-	color: black;
-	font-weight: 600;
-}
-
-.nav button {
-	border-radius: 8px;
-	border: none;
-	padding: 10px 15px;
-	margin-left: 20px;
-	background: #6F6FFF;
-	color: white;
-	font-weight: 600;
+@media screen and (max-width: 850px) {
+  .navbarRight {
+    display: none;
+  }
+  .navbarMobile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+  }
 }
