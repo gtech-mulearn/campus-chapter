@@ -57,6 +57,7 @@
     position: relative;
     vertical-align: top;
     width: 15rem;
+    border-radius: 50%;
 }
 .teamNameDesignation {
     height: fit-content;
