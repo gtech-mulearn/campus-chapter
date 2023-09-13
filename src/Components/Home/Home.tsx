@@ -1,6 +1,7 @@
 import styles from "./Home.module.css";
 import image from "./assets/homeimg.svg";
 import { BlueStar, WhiteStar, Mu } from "./assets/svg";
+import data from '../../../data.json'
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
             <div className={styles.contentWraper}>
                 <h1>Welcome to the</h1>
                 <h2>µverse</h2>
-                <p>{import.meta.env.VITE_COLLEGE}</p>
+                <p>{data.college}</p>
             </div>
             <img src={image} alt="" />
             <div className={styles.start1}>
