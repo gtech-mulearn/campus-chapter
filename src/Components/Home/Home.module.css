@@ -188,3 +188,27 @@
     top: 17%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .start1 {
+    left: 13%;
+    top: 30%;
+  }
+  .start2 {
+    right: 10%;
+    top: 35%;
+  }
+  .start3 {
+    left: 27%;
+    top: 15%;
+  }
+  .start4 {
+    right: 14%;
+    top: 30%;
+  }
+  .start5 {
+    right: 48.5%;
+    top: 15%;
+  }
+
+}
