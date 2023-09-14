@@ -1,9 +1,9 @@
 {
-	"collegeCode": "SNT",
+    "collegeCode": "SNT",
 
-	"college": "Sree Narayana Guru Institute of Science and Technology",
+    "college": "Sree Narayana Guru Institute of Science and Technology",
 
-	"about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
+    "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
 
     "events": [
         {
@@ -28,17 +28,18 @@
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
-          "month": "Sep",
-          "date": "25",
-          "head": "Opportunities in TCS EIS",
-          "para": "Webinar on Engineering and Industrial Services division of TCS.",
-          "img": "img"
-        },{
-          "month": "Sep",
-          "date": "25",
-          "head": "Opportunities in TCS EIS",
-          "para": "Webinar on Engineering and Industrial Services division of TCS.",
-          "img": "img"
+            "month": "Sep",
+            "date": "25",
+            "head": "Opportunities in TCS EIS",
+            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+        },
+        {
+            "month": "Sep",
+            "date": "25",
+            "head": "Opportunities in TCS EIS",
+            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "img": "https://wallpaperaccess.com/full/1642272.jpg"
         }
     ],
 
@@ -48,81 +49,73 @@
                 "image": "https://th.bing.com/th/id/R.3a9f0210ff7d1e83039ff237c81bacae?rik=asArcL6qvWfZfA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2016%2f03%2f29%2fbeautiful-nature-high-definition_042323787_304.jpg&ehk=8tO7UxFL%2bC03x6vfc2O9EhdUCe4fl6tC7UGUdlnpdX4%3d&risl=&pid=ImgRaw&r=0"
             },
             {
-				"image": "https://th.bing.com/th/id/OIP.r10V5bespET6Fe5AQ1ak4gHaEd?pid=ImgDet&rs=1"
+                "image": "https://th.bing.com/th/id/OIP.r10V5bespET6Fe5AQ1ak4gHaEd?pid=ImgDet&rs=1"
             }
         ],
-		"row2": [
+        "row2": [
             {
-				"image": "https://th.bing.com/th/id/OIP.p5zC9uLm5ByGSy8gYI0McAHaE8?pid=ImgDet&rs=1"
+                "image": "https://th.bing.com/th/id/OIP.p5zC9uLm5ByGSy8gYI0McAHaE8?pid=ImgDet&rs=1"
             },
             {
-				"image": "https://images.squarespace-cdn.com/content/v1/5c710438b914490d5769a64f/b4fb2b4f-5f95-41a1-9416-d156d0ae273f/Most+Famous+Astrologer+in+the+World.jpg"
+                "image": "https://images.squarespace-cdn.com/content/v1/5c710438b914490d5769a64f/b4fb2b4f-5f95-41a1-9416-d156d0ae273f/Most+Famous+Astrologer+in+the+World.jpg"
             }
         ]
     },
 
     "statistics": {
-		"studentsCount": "30+",
-		"learningCircles": "10+",
-		"InterestGroups": "05+",
-		"karmaEarned": "60k+",
-		"rank": "28"
-	},
+        "studentsCount": "30+",
+        "learningCircles": "10+",
+        "InterestGroups": "05+",
+        "karmaEarned": "60k+",
+        "rank": "28"
+    },
 
-	"team": [
-        {
-            "position": "Campus Lead",
+    "team": {
+        "staffAdvisor": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
-        {
-            "position": "Campus Lead",
+        "campusLead": {
             "name": "Elon Musk",
             "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
         },
-        {
-            "position": "Campus Lead",
+        "campusCoLead": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
-        {
-            "position": "Campus Lead",
+        "treasurer": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
-        {
-            "position": "Campus Lead",
+        "technicalLead": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
-        {
-            "position": "Campus Lead",
+        "mediaLead": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
-        {
-            "position": "Campus Lead",
+        "contentLead": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
-        {
-            "position": "Campus Lead",
+        "operationLead": {
             "name": "Enric S Neelamkavil",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         }
-    ],
+    },
 
-	"discordLink": "",
-	
-	"whatsAppLink": "",
+    "discordLink": "",
 
-	"email": "mulearn@cce.edu.in",
+    "whatsAppLink": "",
 
-	"linkedIn": "",
+    "email": "mulearn@cce.edu.in",
 
-	"instagram": "",
+    "linkedIn": "",
 
-	"twitter": "",
+    "instagram": "",
 
-	"facebook": ""
+    "twitter": "",
+
+    "facebook": ""
 }

@@ -38,10 +38,9 @@
 }
 
 .navbarLeft > a > p {
-  font-size: 24px;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 400;
   margin-top: -15px;
-  font-family: 'Poppins';
   color: #9042EB;
   text-transform: uppercase;
 }

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { ULearn } from "../../assets/svg/svg";
 import { useReactPath } from "./path.hook.ts";
 import { AiOutlineMenu } from "react-icons/ai";
+import data from "../../../data.json";
 
 const Navbar = () => {
     const [openmenu, setopenmenu] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
             <div className={styles.navbarLeft}>
                 <a href="#home">
                     <ULearn />
-                    <p>cce</p>
+                    <p>{data.collegeCode}</p>
                 </a>
             </div>
             <div className={styles.navbarRight}>
