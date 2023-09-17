@@ -13,10 +13,18 @@ const Footer = () => {
                     <a href={`mailto:${data.email}`}>{data.email}</a>
                 </p>
                 <div>
-                    <a href="">µLearn</a>
-                    <a href="">Events</a>
-                    <a href="">Gallery</a>
-                    <a href="">Branding</a>
+                    <a target="_blank" href="https://mulearn.org/">
+                        µLearn
+                    </a>
+                    <a target="_blank" href="https://mulearn.org/announcements">
+                        Events
+                    </a>
+                    <a target="_blank" href="https://mulearn.org/gallery">
+                        Gallery
+                    </a>
+                    <a target="_blank" href="https://online.fliphtml5.com/egsqr/tlgc/">
+                        Branding
+                    </a>
                 </div>
             </div>
             <div className={styles.socialMedia}>

@@ -9,7 +9,7 @@ const Gallery = () => {
     };
 
     return (
-        <div className={styles.gallery}>
+        <div className={styles.gallery} id="gallery">
             <h2>Memories</h2>
             <div className={styles.row}>
                 <Marquee {...marqParams} style={{ width: "100vw" }}>
@@ -30,7 +30,6 @@ const Gallery = () => {
                         <div className={styles.imgContainer}>
                             <img src={src.image} loading="lazy" />
                         </div>
-                        //
                     ))}
                 </Marquee>
             </div>

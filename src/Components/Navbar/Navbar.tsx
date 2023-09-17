@@ -12,7 +12,7 @@ const Navbar = () => {
         setopenmenu(!openmenu);
     }
     const path = useReactPath();
-    const navContent = ["home", "about", "team", "contact"];
+    const navContent = ["home", "about","gallery", "team", "contact"];
     useEffect(() => {}, [path]);
     const changeNavBg = () => {
         window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
@@ -59,7 +59,7 @@ const Navbar = () => {
                     ))}
                 </div>
                 <button>
-                    <a href="http://app.mulearn.org">Join µlearn</a>
+                    <a target="_blank" href="http://app.mulearn.org/register">Join µlearn</a>
                 </button>
             </div>
             <div className={styles.navbarMobile}>
