@@ -16,21 +16,28 @@
 
 .AboutWrapper p {
   font-size: 20px;
+  color: rgb(66, 66, 66);
+  text-align: left;
+  font-size: 1.2rem;
 }
+
 @media screen and (max-width: 900px) {
   .AboutWrapper p {
     font-size: 17px;
   }
 }
+
 @media screen and (max-width: 670px) {
   .AboutWrapper {
     gap: 15px;
     padding: 3vh 5%;
   }
+
   .AboutWrapper h1 {
-    font-size: 28px;
+    font-size: 2rem;
   }
+
   .AboutWrapper p {
-    font-size: 15px;
+    font-size: .8rem;
   }
 }

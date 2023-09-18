@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 const Statistics = () => {
 
-	const [counters, setCounters] = useState<number[]>([0, 0, 0, 0]); // Initialize counters
+    const [counters, setCounters] = useState<number[]>([0, 0, 0, 0]); // Initialize counters
     const durationInSeconds = 3; // Duration in seconds
 
     const targetRef = useRef<HTMLDivElement>(null); // Create a ref
@@ -19,9 +19,9 @@ const Statistics = () => {
             rect.top >= 0 &&
             rect.left >= 0 &&
             rect.bottom <=
-                (window.innerHeight || document.documentElement.clientHeight) &&
+            (window.innerHeight || document.documentElement.clientHeight) &&
             rect.right <=
-                (window.innerWidth || document.documentElement.clientWidth)
+            (window.innerWidth || document.documentElement.clientWidth)
         );
     };
 
@@ -40,8 +40,8 @@ const Statistics = () => {
                         counter < finalValues[index]
                             ? counter +
                             Math.ceil(
-                                  finalValues[index] / (durationInSeconds * 20)
-                              ) // Increment smoothly
+                                finalValues[index] / (durationInSeconds * 20)
+                            ) // Increment smoothly
                             : finalValues[index]
                     )
                 );
@@ -101,20 +101,20 @@ const Statistics = () => {
                                 {index === 0
                                     ? "STUDENTS"
                                     : index === 1
-                                    ? "LEARNING"
-                                    : index === 2
-                                    ? "INTEREST"
-                                    : "KARMA"
-                                    }
+                                        ? "LEARNING"
+                                        : index === 2
+                                            ? "INTEREST"
+                                            : "KARMA"
+                                }
                             </p>
                             <p>
                                 {index === 0
                                     ? "ENROLLED"
                                     : index === 1
-                                    ? "CIRCLES"
-                                    : index === 2
-                                    ? "GROUPS"
-                                    : "MINED"}
+                                        ? "CIRCLES"
+                                        : index === 2
+                                            ? "GROUPS"
+                                            : "MINED"}
                             </p>
                         </div>
                     ))}
