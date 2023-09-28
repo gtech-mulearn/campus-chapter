@@ -15,20 +15,24 @@
   color: black;
   font-weight: 400;
 }
+
 .navbarWrapper button {
   background: none;
   border: none;
 }
-.navbarWrapper > div {
+
+.navbarWrapper>div {
   width: fit-content;
 }
+
 .navbarLeft {
   padding: 10px 35px 0px;
   background-color: transparent;
   width: fit-content;
   height: fit-content;
 }
-.navbarLeft > a {
+
+.navbarLeft>a {
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -37,22 +41,25 @@
   justify-content: right;
 }
 
-.navbarLeft > a > p {
+.navbarLeft>a>p {
   font-size: 18px;
   font-weight: 800;
   margin-top: -14px;
   color: #9042EB;
   text-transform: uppercase;
 }
-.navbarRight > div {
+
+.navbarRight>div {
   display: flex;
   gap: 5vh;
   align-items: center;
   justify-content: center;
 }
-.navbarRight > div > a > p {
+
+.navbarRight>div>a>p {
   text-transform: capitalize;
 }
+
 .navbarRight {
   display: flex;
   align-items: center;
@@ -62,7 +69,7 @@
   justify-content: center;
 }
 
-.navbarRight > button > a {
+.navbarRight>button>a {
   padding: 10px 15px;
   border-radius: 5px;
   color: #fff;
@@ -78,7 +85,8 @@
   right: 0;
   top: 15px;
 }
-.navbarMobile > div {
+
+.navbarMobile>div {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 9999;
   backdrop-filter: blur(8px);
@@ -91,23 +99,28 @@
   height: 40vh;
   width: 50vw;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 }
-.navbarMobile > div > a > p {
+
+.navbarMobile>div>a>p {
   color: white;
   font-size: 20px;
   font-weight: 400;
   text-transform: capitalize;
 }
-.navbarMobile > div > button > a {
+
+.navbarMobile>div>button>a {
   color: white;
   font-size: 20px;
   font-weight: 400;
 }
 
-.hamburger {
+.navbarMobile .hamburger {
   font-size: 30px;
+  position: relative;
+  right: -1rem;
 }
+
 /* 
 .navbarMobile > button,
 .navbarMobile > button > img {
@@ -118,9 +131,16 @@
   .navbarRight {
     display: none;
   }
+
   .navbarMobile {
     display: flex;
     flex-direction: row-reverse;
     align-items: baseline;
+  }
+}
+
+@media(width<498px) {
+  .navbarLeft {
+    padding: 10px 25px 0px;
   }
 }

@@ -1,9 +1,7 @@
 .events {
   max-height: 700px;
   width: 100%;
-
   padding: 0rem 2rem;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,18 +27,15 @@
 
 .card {
   display: flex;
-
   align-items: center;
-
   box-shadow: 0px 0px 24.0251px 0px rgba(0, 0, 0, 0.1);
-
   padding: 10px 10px;
+  margin-bottom: .5rem;
 }
 
 .card .content {
   display: flex;
   align-items: center;
-
 }
 
 .card .date,
@@ -69,86 +64,133 @@
 .card.large {
   max-width: 500px;
   width: 50%;
-  border-radius: 32.75px;
+  border-radius: 1rem;
   flex-wrap: wrap-reverse;
   gap: 1rem;
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
+
 .card.large img {
-  height: 400px;
-  width: auto;
+  /* height: 400px; */
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
   object-fit: contain;
 }
-.card.large .text {
+
+.card .large .text {
   max-width: 300px;
 }
-.card.small {
-  border-radius: 15px;
-  max-width: 700px;
 
+.card.large .text span {
+  margin-top: .3rem;
+  font-size: 1rem;
+}
+
+.card.small {
+  border-radius: 1rem;
+  max-width: 700px;
 }
 
 .card.small .text {
   width: 75%;
 }
+
+.card.small .text span {
+  margin-top: .3rem;
+  font-size: 1rem;
+}
+
 .subContent {
   display: flex;
+  align-items: center;
   flex-direction: column;
+  gap: .5rem;
   justify-content: space-between;
-  height: 500px;
 }
+
 @media (max-width: 1050px) {
   .card .date {
     font-size: 23px;
   }
+
   .card .text {
     font-size: 15px;
   }
+
   .card.large img {
     height: 360px;
   }
+
   .card img {
     height: 90px;
   }
+
   .subContent {
     height: 100%;
   }
 }
+
 @media screen and (max-width: 880px) {
   .events {
     max-height: none;
   }
+
   .innerDiv {
     flex-direction: column;
   }
+
   .card.large {
     max-width: 400px;
-    width: 90%;
+    width: 100%;
   }
-  .card.small {
-  max-width: 550px;
 
-}
+  .card.small {
+    max-width: 550px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .events {
     padding: 0rem 10px;
   }
+
   .card.large img {
     height: auto;
     width: 100%;
   }
+
   .card {
     padding: 5px 10px;
   }
+
   .card .date {
     font-size: 23px;
   }
-  .card .text {
-    font-size: 14px;
+
+  .card .text strong {
+    font-size: .9rem;
+    margin-bottom: .1rem;
   }
+
+  .card.large .text span,
+  .card.small .text span {
+    font-size: .75rem;
+    margin-top: .1rem;
+  }
+
   .card img {
     height: 70px;
+  }
+}
+
+@media(width<345px){
+  .card .text strong {
+    font-size: .6rem;
+  }
+
+  .card.large .text span,
+  .card.small .text span {
+    font-size: .55rem;
   }
 }

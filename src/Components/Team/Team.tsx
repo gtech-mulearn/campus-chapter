@@ -79,7 +79,7 @@ const Team = () => {
                                 {data.team.treasurer.name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                               Treasurer
+                                Treasurer
                             </div>
                         </div>
                     </div>

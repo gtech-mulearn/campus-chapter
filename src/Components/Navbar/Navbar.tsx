@@ -12,8 +12,8 @@ const Navbar = () => {
         setopenmenu(!openmenu);
     }
     const path = useReactPath();
-    const navContent = ["home", "about","gallery", "team", "contact"];
-    useEffect(() => {}, [path]);
+    const navContent = ["home", "about", "gallery", "team", "contact"];
+    useEffect(() => { }, [path]);
     const changeNavBg = () => {
         window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
     };
@@ -33,7 +33,7 @@ const Navbar = () => {
         >
             <div className={styles.navbarLeft}>
                 <a href="#home">
-                    <ULearn />
+                    <ULearn/>
                     <p>{data.collegeCode}</p>
                 </a>
             </div>
@@ -62,6 +62,7 @@ const Navbar = () => {
                     <a target="_blank" href="http://app.mulearn.org/register">Join µlearn</a>
                 </button>
             </div>
+            
             <div className={styles.navbarMobile}>
                 <button onClick={openMenu} className={styles.hamburger}>
                     <AiOutlineMenu />
