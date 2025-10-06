@@ -1,10 +1,9 @@
 {
-    "collegeCode": "SNT",
+    "collegeCode": "NSSCE",
 
-    "college": "Sree Narayana Guru Institute of Science and Technology",
+    "college": "NSS College of Engineering",
 
-    "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
-
+    "about": "NSS College of Engineering, Palakkad was established in 1960 with three branches during the second Five-Year plan with the assistance of Central and State Government under the Grand in-Aid scheme. Currently it is one of the most reputed, premier engineering educational institutions in Kerala, managed by Nair Service Society and affiliated to the APJ Abdul Kalam Technological University. At present, the institution offers B.TECH degree courses in six branches and M.TECH degree courses in Communication Engineering, Power Electronics, Computer Science & Engineering, Structural Engineering, Computer Integrated Manufacturing, and Biomedical Engineering.",
     "events": [
         {
             "month": "Sep",
@@ -51,9 +50,9 @@
             {
                 "image": "https://mulearn.org/assets/home/Chart.webp"
             },
-			{
-				"image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
-			}
+            {
+                "image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
+            }
         ],
         "row2": [
             {
@@ -108,15 +107,15 @@
         }
     },
 
-    "discordLink": "",
+    "discordLink": "https://discord.gg/Ng6Xtp7b",
 
     "whatsAppLink": "",
 
     "email": "mulearn@cce.edu.in",
 
-    "linkedIn": "",
+    "linkedIn": "https://www.linkedin.com/company/mulearn-nssce/",
 
-    "instagram": "",
+    "instagram": "https://www.instagram.com/mulearn_nssce?igsh=eDZzYjM2MTl4Yjdq",
 
     "twitter": "",
 
