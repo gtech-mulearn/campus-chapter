@@ -1,0 +1,277 @@
+.events {
+    width: 100%;
+    padding: 0rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    scroll-margin-top: 80px; /* Add space for fixed header if any */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Add styles for the section anchor */
+.events:target {
+    scroll-margin-top: 80px;
+    padding-top: 80px; /* Add padding to prevent content from being hidden under fixed header */
+}
+
+.events h2 {
+    text-align: center;
+    align-self: center;
+    color: #ae59ff;
+    font-size: 2rem;
+}
+
+.innerDiv {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.card .content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 95%;
+}
+
+.card .date,
+.card .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card .date {
+    font-size: 28px;
+    border-right: #d6abfe 5px solid;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.card .text {
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+.card img {
+    height: 110px;
+    border-radius: 10px;
+}
+
+.card.large {
+    max-width: 500px;
+    width: 50%;
+    height: 600px;
+    border-radius: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 1rem;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.card.large img {
+    height: 350px; /* Fixed height for consistency */
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover; /* Maintain aspect ratio and fill space */
+    flex-shrink: 0;
+}
+
+/* FIXED: Corrected selector - was missing dot */
+.card.large .text {
+    max-width: 100%;
+    width: 100%;
+    flex: 1; /* Take remaining space after image */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden; /* Prevent text overflow */
+}
+
+.card.large .text span {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit to 4 lines */
+    -webkit-box-orient: vertical;
+}
+
+/* FIXED: Added consistent title styling for large cards */
+.card.large .text strong {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit title to 2 lines */
+    -webkit-box-orient: vertical;
+}
+
+.card.small {
+    border-radius: 1rem;
+    width: 95%;
+}
+
+.card.small .text {
+    width: 75%;
+}
+
+.card.small .text span {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+}
+
+.subContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.viewAllButton {
+    padding: 4px 8px;
+    border-radius: 1rem;
+    background-color: #ae59ff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.viewAllButton:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 1050px) {
+    .card .date {
+        font-size: 23px;
+    }
+    .card .text {
+        font-size: 15px;
+    }
+    .card.large img {
+        height: 360px;
+    }
+    .card img {
+        height: 90px;
+    }
+    .subContent {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .events {
+        max-height: none;
+    }
+    .innerDiv {
+        flex-direction: column;
+    }
+    .card.large {
+        max-width: 400px;
+        width: 100%;
+        height: 500px; /* Adjust height for mobile */
+    }
+    .card.large img {
+        height: 280px; /* Adjust image height for mobile */
+    }
+    .card.small {
+        max-width: 550px;
+    }
+    .yearScroll {
+        padding: 0 0.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .events {
+        padding: 0rem 10px 4rem;
+    }
+    .card.large {
+        height: 400px; /* Smaller height for very small screens */
+    }
+    .card.large img {
+        height: 200px; /* Smaller image for mobile */
+        width: 100%;
+    }
+    .card {
+        padding: 5px 10px;
+        width: 85%;
+    }
+    .card .date {
+        font-size: 23px;
+    }
+    .card .text strong {
+        font-size: 0.9rem;
+        margin-bottom: 0.1rem;
+    }
+    .card.large .text span,
+    .card.small .text span {
+        font-size: 0.75rem;
+        margin-top: 0.1rem;
+    }
+    .card img {
+        height: 70px;
+    }
+    .yearButton {
+        min-width: 80px;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (width < 345px) {
+    .card .text strong {
+        font-size: 0.6rem;
+    }
+    .card.large .text span,
+    .card.small .text span {
+        font-size: 0.55rem;
+    }
+}
+
+.registerButton {
+    padding: 4px 8px;
+    border-radius: 1rem;
+    background-color: #ae59ff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.registerButton:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}

@@ -1,31 +1,16 @@
-import "./App.css";
-// import { Helmet, HelmetProvider } from "react-helmet-async";
-import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Events from "./Components/Events/Events";
-import Gallery from "./Components/Gallery/Gallery";
-import Statistics from "./Components/Statistics/Statistics";
-import ExploreLC from "./Components/ExploreLC/ExploreLC";
-import Team from "./Components/Team/Team";
-import Connect from "./Components/Connect/Connect";
-import Footer from "./Components/Footer/Footer";
-function App() {
+import { BrowserRouter as Router, Routes, Route } from "react-router";
+import HomePage from "./Pages/Home";
+import EventPage from "./Pages/Events";
 
-    return (
-        <div className="appWrapper">
-            <Navbar />
-            <Home />
-            <About />
-            <Events />
-            <Gallery />
-            <Statistics />
-            <ExploreLC />
-            <Team />
-            <Connect />
-            <Footer />
-        </div>
-    );
-}
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/events" element={<EventPage />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;

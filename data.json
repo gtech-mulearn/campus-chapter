@@ -1,124 +1,283 @@
 {
-    "collegeCode": "SNT",
+  "collegeCode": "GECSKP",
 
-    "college": "Sree Narayana Guru Institute of Science and Technology",
+  "college": "Government Engineering College     Sreekrishnapuram",
 
-    "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
+  "about": "µLearn GECSKP was officially established on October 20, 2023, with the vision of embodying a synergic philosophy of education and fostering a culture of mutual learning through micro peer groups. With Reny Mathew as the campus lead and Anoop S K M (Assistant Professor - IT)as the faculty enabler, µLearn embarked on a journey to assist students in breaking through echo chambers and freeing themselves from the shackles of conventional thinking.In January 2024, µLearn formed its Executive Committee (Execom), comprised of dedicated student leaders committed to advancing the club's mission and vision..",
 
-    "events": [
+  "events": [
+    {
+      "year": 2025,
+      "eventDetails": [
         {
-            "month": "Sep",
-            "date": "29",
-            "head": "Event 1",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+          "month": "Jun",
+          "date": "12",
+          "head": "Karmayottam",
+          "para": "7 days of growth, productivity, action & rewards! Take on meaningful tasks, level up your skills & rise on the leaderboard!.The more tasks you complete, the higher you rise!.",
+          "img": "https://i.postimg.cc/3rLyXVYd/Karmayottam2.jpg"
+        },
+        
+        {
+          "month": "May",
+          "date": "28",
+          "head": "CodeSprint 30",
+          "para": "GDG GEC Palakkad and μLearn GECSKP launched a 30-day upskilling program starting May 28, focusing on resumes, interviews, and internships.Participants geared up for career success with expert-led sessions and hands-on guidance.",
+          "img": "https://i.postimg.cc/fRLHR65Z/Code-sprint.jpg"
         },
         {
-            "month": "Sep",
-            "date": "27",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+          "month": "April",
+          "date": "14",
+          "head": "Karmayottam",
+          "para": "μLearn GECSKP organized a week-long Karma Sprint from April 14–21, where participants completed real-world tasks to build skills and earn Karma Points.The challenge promoted growth, productivity, and leaderboard-worthy action.",
+          "img": "https://i.postimg.cc/50nYyksd/Karmayottam.jpg"
         },
         {
-            "month": "Sep",
-            "date": "26",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+          "month": "Mar",
+          "date": "12",
+          "head": "μLearn Orientation",
+          "para": "μLearn GECSKP conducted an orientation session introducing the community and the concept of Karma Points, inspiring students to learn, grow, and collaborate.The session encouraged active participation and skill-building through community-driven learning.",
+          "img": "https://i.postimg.cc/jdQVf0z7/Orientation.jpg"
         },
         {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+          "month": "Feb",
+          "date": "20",
+          "head": "StackUp Bootcamp",
+          "para": "μLearn GECSKP and Tinker hub GECSKP collaborated to organize a beginner-friendly bootcamp on web development, covering HTML, CSS, JavaScript, and Git.",
+          "img": "https://i.postimg.cc/3NrkyJVh/Stackup.jpg"
         },
         {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+          "month": "Jan",
+          "date": "17",
+          "head": "Typeiko",
+          "para": "A thrilling typing competition, showcasing participant's speed and accuracy in typing.",
+          "img": "https://i.postimg.cc/B6vnSQfN/typeiko-2024.jpg"
+        },
+        {
+          "month": "Jan",
+          "date": "30",
+          "head": "Grab Your Superpowers",
+          "para": "µLearn GECSKP organized an insightful session called Grab Your Superpowers, where Viswanatha Kartha an intern at IBM, guided participants on mastering version control with Git & GitHub.",
+          "img": "https://i.postimg.cc/26RDsqgK/grab-your-superpowers-git.jpg"
         }
+      ]
+    },
+    {
+      "year": 2024,
+      "eventDetails": [
+        {
+          "month": "Aug",
+          "date": "9",
+          "head": "µPy",
+          "para": "A basic python course using snakify",
+          "img": "https://i.postimg.cc/Kz18wQNy/py.jpg"
+        },
+        {
+          "month": "july",
+          "date": "24",
+          "head": "Salt Mango Tree",
+          "para": "KTU Mastery Pathway 2024",
+          "img": "https://i.postimg.cc/d1Ty7h42/Whats-App-Image-2024-07-24-at-11-55-20-AM.jpg"
+        },
+        {
+          "month": "july",
+          "date": "17",
+          "head": "Salt Mango Tree",
+          "para": "Discover the Future of Electric Vehicles and Industries in India!",
+          "img": "https://i.postimg.cc/vBcd9qyJ/Whats-App-Image-2024-07-17-at-12-32-46-4e202e01.jpg"
+        },
+
+        {
+          "month": "Mar",
+          "date": "25",
+          "head": "Karmayugam",
+          "para": "The Karma Marathon was an exhilarating interdepartmental battle organized with the aim of fostering team spirit and healthy competition among participants.",
+          "img": "https://i.postimg.cc/pd80CtNN/karamayugam.jpg"
+        },
+        {
+          "month": "Feb",
+          "date": "17",
+          "head": "online python workshop",
+          "para": "µLearn GECSKP and µLearn MITS collaborated to organize an engaging Python online hands-on workshop tailored for beginners",
+          "img": "https://i.postimg.cc/wxkGnH1g/python.jpg"
+        },
+
+        {
+          "month": "Feb",
+          "date": "13",
+          "head": "Code Karma",
+          "para": "The Code Karma event, organized by µLearn GECSKP, was a transformative 30-day coding challenge designed to enhance participants' programming skills and foster aculture of continuous learning",
+          "img": "https://i.postimg.cc/Y0SfJ5PC/code.jpg"
+        },
+        {
+          "month": "Nov",
+          "date": "12",
+          "head": "Typeiko",
+          "para": "µLearn GECSKP organized a thrilling typing competition called Typeiko, showcasing participant's speed and accuracy in typing.",
+          "img": "https://i.postimg.cc/YS3FMXYG/typeiko.jpg"
+        },
+        {
+          "month": "Nov",
+          "date": "6",
+          "head": "MuStory",
+          "para": "This event showcased a video presentation highlighting Aami's remarkable story of overcoming challenges and transforming her life through µLearn",
+          "img": "https://i.postimg.cc/ZK2FMDxJ/story.jpg"
+        },
+        {
+          "month": "Dec",
+          "date": "27",
+          "head": "Malabari Santa",
+          "para": "Northzone and GECSKP organized a thrilling animation challenge called Malabari Santa, showcasing creative depictions of Santa adapting to Kerala’s culture.",
+          "img": "https://i.postimg.cc/JnNLMrL4/malabari-santa.jpg"
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+    "title": "4th Best Campus Award at Perµte'25",
+      "description":"We’re proud to be recognized as the 4th Best Campus at Perµte'25, the flagship annual celebration of µLearn! This honor reflects our campus's collective spirit of peer learning, tech exploration, and community-driven growth",
+      "images": [
+        "https://i.postimg.cc/rps6GpLH/m0.png",
+        "https://i.postimg.cc/sD4btWj8/m1.png",
+        "https://i.postimg.cc/7LGsYJ4q/m-2.png",
+        "https://i.postimg.cc/d0y6KMR1/m2.png",
+        "https://i.postimg.cc/FK3yBymk/m3.png"
+      ]
+    }
+  ],
+
+  "gallery": {
+    "row1": [
+      {
+        "image": "https://i.postimg.cc/7LQpm0tR/Whats-App-Image-2024-06-30-at-21-10-47-2337d1f1.jpg"
+      },
+      {
+        "image": "https://i.postimg.cc/1t84j0mV/Whats-App-Image-2024-05-19-at-19-10-05-7cfb08d4.jpg"
+      },
+      {
+        "image": "https://i.postimg.cc/yxzBy0kH/Whats-App-Image-2024-05-11-at-19-24-27-c702d4cc.jpg"
+      },
+      {
+        "image": "https://i.postimg.cc/FsLxtDV0/Congratulations-Jerald-S6-CSE-on-your-accomplishment.jpg"
+      }
     ],
+    "row2": [
+      {
+        "image": "https://i.postimg.cc/cJqDHhj0/Whats-App-Image-2024-05-11-at-11-40-05-14ac719b.jpg"
+      },
+      {
+        "image": "https://i.postimg.cc/QM4J7qYF/Whats-App-Image-2024-05-09-at-19-46-51-ae9343a0.jpg"
+      },
+      {
+        "image": "https://i.postimg.cc/4NLWZmDT/Congratulations-to-Reny-Mathew-who-selected-as-Learn-Palakkad-District-Lead-We-are-thrilled-to-w.jpg"
+      },
+      {
+        "image": "https://i.postimg.cc/SQVB2QBg/Discover-the-Ultimate-Campus-Hub-Join-the-Learn-GECSKP-Discord-Channel-Launching-Now-https-d.jpg"
+      },
+      {
+        "image": "https://i.postimg.cc/Qxyvm4x5/Typing-warriors-rejoice-We-re-thrilled-to-announce-that-the-30-day-Typing-Challenge-has-come-to.jpg"
+      }
+    ]
+  },
 
-    "gallery": {
-        "row1": [
-            {
-                "image": "https://mulearn.org/assets/home/illustration.webp"
-            },
-            {
-                "image": "https://mulearn.org/assets/home/Chart.webp"
-            },
-			{
-				"image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
-			}
-        ],
-        "row2": [
-            {
-                "image": "https://th.bing.com/th/id/OIP.p5zC9uLm5ByGSy8gYI0McAHaE8?pid=ImgDet&rs=1"
-            },
-            {
-                "image": "https://images.squarespace-cdn.com/content/v1/5c710438b914490d5769a64f/b4fb2b4f-5f95-41a1-9416-d156d0ae273f/Most+Famous+Astrologer+in+the+World.jpg"
-            }
-        ]
+  
+  "statistics": {
+    "studentsCount": 712,
+    "activeMembers": 202,
+    "InterestGroups": 3,
+    "karmaEarned": 360000,
+    "rank": 14
+  },
+
+  "team": {
+    "CampusEnabler": {
+      "name": "ANOOP S K M",
+      "image": "https://i.postimg.cc/CZMxhypx/ANOOP.png"
     },
-
-    "statistics": {
-        "studentsCount": 30,
-        "learningCircles": 10,
-        "InterestGroups": 5,
-        "karmaEarned": 60,
-        "rank": 28
+    "CampusLead": {
+      "name": "ASLAM",
+      "image": "https://i.postimg.cc/YGh2F19c/ASLAM.png"
     },
-
-    "team": {
-        "staffAdvisor": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "campusLead": {
-            "name": "Elon Musk",
-            "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
-        },
-        "campusCoLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "treasurer": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "technicalLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "mediaLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "contentLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "operationLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        }
+    "CampusCoLead1": {
+      "name": "FAHAD",
+      "image": "https://i.postimg.cc/RW7WCQ3X/FAHADH.png"
     },
+    "CampusCoLead2": {
+      "name": "GOPIKA",
+      "image": "https://i.postimg.cc/0MQjCTVB/GOPIKA.png"
+    },
+    "CreativeLead": {
+      "name": "FADEELA",
+      "image": "https://i.postimg.cc/rKSV5y8p/FADEELA.png"
+    },
+    "TechnicalLead": {
+      "name": "AYSHA",
+      "image": "https://i.postimg.cc/SJ0QXYb5/AYSHA.png"
+    },
+    "MediaLead": {
+      "name": "AVANTHIKA",
+      "image": "https://i.postimg.cc/fkSTTjpm/AVANTHIKA.png"
+    },
+    "DesignLead": {
+      "name": "NAVAMI BR",
+      "image": "https://i.postimg.cc/G852gXNh/navami.png"
+    },
+    "TechTeam1": {
+      "name": "ANUPAMA",
+      "image": "https://i.postimg.cc/kVjXDj7F/Anupama.png"
+    },
+    "TechTeam2": {
+      "name": "UVAIS",
+      "image": "https://i.postimg.cc/F7cRGgxN/UVAIS.png"
+    },
+    "TechTeam3": {
+      "name": "AISWARYA",
+      "image": "https://i.postimg.cc/Xrkv6jhP/AISWARYA.png"
+    },
+    "MediaTeam1": {
+      "name": "ATHUL",
+      "image": "https://i.postimg.cc/ygt1ykgD/ATHUL.png"
+    },
+    "MediaTeam2": {
+      "name": "ATHULYA",
+      "image": "https://i.postimg.cc/jnfsgtPZ/ATHULYA.png"
+    },
+    "MediaTeam3": {
+      "name": "FIDHA",
+      "image": "https://i.postimg.cc/8FTj7JMD/FIDHA.png"
+    },
+    "DesignTeam1": {
+      "name": "FAHAD MK",
+      "image": "https://i.postimg.cc/GBz9GLxD/M-FAHAD.png"
+    },
+    "DesignTeam2": {
+      "name": "SANJANA",
+      "image": "https://i.postimg.cc/YjT01yYd/SANJANA.png"
+    },
+    "IGLead(WebDev)": {
+      "name": "SABARI",
+      "image": "https://i.postimg.cc/p55dwDbQ/SABARI.png"
+    },
+    "IGLead(UI/UX)": {
+      "name": "RONNIE",
+      "image": "https://i.postimg.cc/NLKL2w9y/RONNIE.png"
+    },
+    "IGLead(IOT)": {
+      "name": "VIGNESH",
+      "image": "https://i.postimg.cc/yDHNGgf9/VIGHNESH.png"
+    }
+  },
+  "discordLink": "https://discord.gg/8ga5EEmAcy",
 
-    "discordLink": "",
+  "whatsAppLink": "https://chat.whatsapp.com/FvoLhftysm04LdsYt2S5Zt",
 
-    "whatsAppLink": "",
+  "email": "mulearngecpkd@gmail.com",
 
-    "email": "mulearn@cce.edu.in",
+  "linkedIn": "https://www.linkedin.com/company/%CE%BClearn-gec-pkd/",
 
-    "linkedIn": "",
+  "instagram": "https://www.instagram.com/mulearn.gecskp/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
 
-    "instagram": "",
+  "X": "https://x.com/MulearnGecPkd",
 
-    "twitter": "",
-
-    "facebook": ""
+  "youtube": "https://www.youtube.com/@MuLearnGECSKP"
 }

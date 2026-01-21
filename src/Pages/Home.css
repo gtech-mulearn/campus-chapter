@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans";
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body, #root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.page-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Team component adjustments */
+.teamWrapper {
+  flex: 1;
+  margin-bottom: 50px; /* Adjust as needed */
+}
+
+/* Connect component adjustments */
+.ConnectWrapper {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  margin-top: auto; /* Push to the bottom of the flex container */
+}
+
+/* Footer component adjustments */
+.FooterWrapper {
+  position: relative;
+  z-index: 1;
+}
+
+/* Existing Connect styles - modify as needed */
+.ConnectWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5vh 10vw;
+  gap: 25px;
+}
+
+/* Existing Footer styles - modify as needed */
+.FooterWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3vh 5vw;
+  background-color: #ae59ff;
+  width: 100%;
+  gap: 20px;
+  color: white;
+}
