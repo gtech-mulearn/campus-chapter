@@ -6,6 +6,7 @@ const Gallery = () => {
     const marqParams = {
         autoFill: true,
         pauseOnHover: true,
+        speed:80, //speed
     };
 
     return (
@@ -20,7 +21,7 @@ const Gallery = () => {
                     ))}
                 </Marquee>
             </div>
-            <div className={styles.row}>
+         {/*  <div className={styles.row}>
                 <Marquee
                     direction="right"
                     {...marqParams}
@@ -32,7 +33,7 @@ const Gallery = () => {
                         </div>
                     ))}
                 </Marquee>
-            </div>
+                </div>*/}
         </div>
     );
 };

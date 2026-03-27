@@ -93,8 +93,10 @@ const Statistics = () => {
                             <h3>
                                 {index >= 0
                                     ? counter >= 2
-                                        ? `${counter}+`
-                                        : counter
+                                     ? counter == data.statistics.karmaEarned
+                                      ? `${counter}k+`
+                                        : `${counter}+`
+                                     : counter
                                     : counter.toLocaleString()}
                             </h3>
                             <p>

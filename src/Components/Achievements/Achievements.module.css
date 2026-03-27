@@ -1,0 +1,132 @@
+.AboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  padding: 5vh 5%;
+  width: 100%;
+}
+
+/* Renaming the main wrapper for clarity */
+.AchievementsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  padding: 5vh 5%;
+  width: 100%;
+}
+
+.AchievementsWrapper h1 {
+  color: #ae59ff;
+  font-size: 35px;
+}
+
+.achievementsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.achievementCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievementCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(174, 89, 255, 0.2);
+}
+
+.achievementImage {
+  width: 100%;
+  height: 300px; /* Fixed height for consistency */
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.achievementImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Fill the container */
+  transition: transform 0.5s ease;
+}
+
+.achievementCard:hover .achievementImage img {
+  transform: scale(1.03);
+}
+
+.achievementInfo {
+  padding: 20px;
+  width: 100%;
+  background-color: #fff;
+  text-align: left; /* Align text to left for consistency */
+}
+
+.achievementInfo h3 {
+  color: #ae59ff;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center; /* Center the title */
+}
+
+.achievementInfo p {
+  font-size: 16px;
+  color: rgb(66, 66, 66);
+}
+
+/* Keep existing media queries */
+@media screen and (max-width: 900px) {
+  .AboutWrapper p {
+    font-size: 17px;
+  }
+  
+  .achievementCard {
+    max-width: 450px;
+  }
+  
+  .achievementImage {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .AchievementsWrapper {
+    gap: 15px;
+    padding: 3vh 5%;
+  }
+
+  .AchievementsWrapper h1 {
+    font-size: 2rem;
+  }
+  
+  .achievementCard {
+    max-width: 100%;
+  }
+  
+  .achievementImage {
+    height: 200px;
+  }
+  
+  .achievementInfo h3 {
+    font-size: 18px;
+  }
+  
+  .achievementInfo p {
+    font-size: 0.8rem;
+  }
+}

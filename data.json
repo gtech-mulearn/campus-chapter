@@ -1,124 +1,157 @@
 {
-    "collegeCode": "SNT",
+  "collegeCode": "UCEK",
 
-    "college": "Sree Narayana Guru Institute of Science and Technology",
+  "college": "University College Of Engineering, Kariavattom ",
 
-    "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
+  "about": "Welcome to MuLearn UCEK! MuLearn is an online platform and student community committed to empowering students to enhance their skills and thrive as individuals and as a community. Our approach integrates micro peer groups, interest groups, and gamified tasks, encouraging engaging and collaborative learning experiences. MuLearn has been successfully implemented at UCEK, assisting students in honing their skills and facilitating easier access to internships and placements. Join us on a journey of growth and discovery, as we support each other's paths to knowledge and personal development.",
 
-    "events": [
+  "events": [
+    {
+      "month": "Apr",
+      "date": "22",
+      "head": "Mediacon",
+      "para": "Kerala's First Meadia & Entertainment Conference",
+      "img": "mulearn-ucek assets/events/mediacon.jpg"
+    },
+    {
+      "month": "Oct",
+      "date": "14",
+      "head": "μClimb",
+      "para": "μClimb organised by MulearnUcek",
+      "img": "mulearn-ucek assets/events/muclimb.jpg"
+    },
+
+    {
+      "month": "Sep",
+      "date": "26",
+      "head": "Mulearn Orientation",
+      "para": "Mulearn orientation and onboarding of students",
+      "img": "https://wallpaperaccess.com/full/1642272.jpg"
+    },
+    {
+      "month": "Sep",
+      "date": "07",
+      "head": "ERROR_418",
+      "para": "24 hour hackathon organised by MulearnUcek", 
+      "img": "mulearn-ucek assets/events/error418.jpg"
+    },
+    {
+      "month": "July",
+      "date": "03",
+      "head": "Introduction to Game Dev",
+      "para": "Organized by MulearnUcek",
+      "img": "mulearn-ucek assets/events/gamedev.jpg"
+    },
         {
-            "month": "Sep",
-            "date": "29",
-            "head": "Event 1",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        },
-        {
-            "month": "Sep",
-            "date": "27",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        },
-        {
-            "month": "Sep",
-            "date": "26",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        },
-        {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        },
-        {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
-        }
+      "month": "July",
+      "date": "03",
+      "head": "Dev Expo",
+      "para": "Organized by MulearnUcek",
+      "img": "mulearn-ucek assets/events/devexpo.jpg"
+    }
+
+  ],
+
+  "gallery": {
+    "row1": [
+      {
+        "image": "mulearn-ucek assets/gallery/Award_cermony.jpg"
+      },
+      {
+        "image": "mulearn-ucek assets/gallery/Award.jpg"
+      },
+      {
+        "image": "mulearn-ucek assets/gallery/shreyas.png"
+      },
+      {
+        "image": "mulearn-ucek assets/gallery/Group.jpg"
+      },
+      {
+        "image": "mulearn-ucek assets/gallery/score.png"
+      },
+      {
+        "image": "mulearn-ucek assets/gallery/score2.png"
+      },
+      {
+        "image": "mulearn-ucek assets/gallery/permute.png"
+      }
     ],
+    "row2": [
+      {
+        "image": "https://th.bing.com/th/id/OIP.p5zC9uLm5ByGSy8gYI0McAHaE8?pid=ImgDet&rs=1"
+      },
+      {
+        "image": "https://images.squarespace-cdn.com/content/v1/5c710438b914490d5769a64f/b4fb2b4f-5f95-41a1-9416-d156d0ae273f/Most+Famous+Astrologer+in+the+World.jpg"
+      }
+    ]
+  },
+  "statistics": {
+    "studentsCount": 297,
+    "learningCircles": 32,
+    "InterestGroups": 5,
+    "karmaEarned": 354.24,
+    "rank": 8
+  },
 
-    "gallery": {
-        "row1": [
-            {
-                "image": "https://mulearn.org/assets/home/illustration.webp"
-            },
-            {
-                "image": "https://mulearn.org/assets/home/Chart.webp"
-            },
-			{
-				"image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
-			}
-        ],
-        "row2": [
-            {
-                "image": "https://th.bing.com/th/id/OIP.p5zC9uLm5ByGSy8gYI0McAHaE8?pid=ImgDet&rs=1"
-            },
-            {
-                "image": "https://images.squarespace-cdn.com/content/v1/5c710438b914490d5769a64f/b4fb2b4f-5f95-41a1-9416-d156d0ae273f/Most+Famous+Astrologer+in+the+World.jpg"
-            }
-        ]
+  "team": {
+    "campusLead": {
+      "name": "Chethas L Pramod",
+      "image": "mulearn-ucek assets/team/Chethas.png"
     },
-
-    "statistics": {
-        "studentsCount": 30,
-        "learningCircles": 10,
-        "InterestGroups": 5,
-        "karmaEarned": 60,
-        "rank": 28
+    "campusCoLead": {
+      "name": "Aswath S A",
+      "image": "mulearn-ucek assets/team/Ashwath.jpg"
     },
-
-    "team": {
-        "staffAdvisor": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "campusLead": {
-            "name": "Elon Musk",
-            "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
-        },
-        "campusCoLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "treasurer": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "technicalLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "mediaLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "contentLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "operationLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        }
+    "igLead": {
+      "name": "Arjun TK",
+      "image": "mulearn-ucek assets/team/Arjun TK.jpg"
     },
+    "technicalLead": {
+      "name": "Richard S",
+      "image": "mulearn-ucek assets/team/Richard.jpg"
+    },
+    "mediaLead": {
+      "name": "Bhagyasree",
+      "image": "mulearn-ucek assets/team/Bhagyashree.jpg"
+    },
+    "marketingLead": {
+      "name": "Sooryakanth S",
+      "image": "mulearn-ucek assets/team/Sooryakanth.jpg"
+    },
+    "operationLead": {
+      "name": "Aadil Mohamed A",
+      "image": "mulearn-ucek assets/team/Aadil.jpg"
+    },
+    "communityLead": {
+      "name": "Aswath S A",
+      "image": "mulearn-ucek assets/team/Ashwath.jpg"
+    },
+    "contentLead": {
+      "name": "Mihirima A R",
+      "image": "mulearn-ucek assets/team/Mihirima.jpg"
+    }
+  },
 
-    "discordLink": "",
+  "discordLink": "https://discord.gg/GgZCqppkJF",
 
-    "whatsAppLink": "",
+  "whatsAppLink": "https://chat.whatsapp.com/KpVdfID7x3H7zUttYvH4ck",
 
-    "email": "mulearn@cce.edu.in",
+  "email": "mulearnucek@gmail.com",
 
-    "linkedIn": "",
+  "linkedIn": "https://www.linkedin.com/company/mulearnucek/",
 
-    "instagram": "",
+  "instagram": "https://www.instagram.com/mulearn.ucek/",
 
-    "twitter": "",
-
-    "facebook": ""
+  "achievements": [
+    {
+      "title": "PERMUTE Emerging Campus Award",
+      "description": "University College of Engineering - Emerging Campus 2024",
+      "image": "mulearn-ucek assets/achievements/Award.jpg"
+    },
+    {
+      "title": "Top Karma Miner Award",
+      "description": "Shreyas S - #1 Karma Miner All Over Kerala, 2024",
+      "image": "mulearn-ucek assets/achievements/shreyas.png"
+    }
+  ]
 }

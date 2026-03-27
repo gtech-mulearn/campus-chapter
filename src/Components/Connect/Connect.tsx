@@ -17,7 +17,7 @@ const Connect = () => {
                         </p>
                     </div>
                     <div className={styles.socialMedia}>
-                        <a href={data.discordLink} className={styles.discord}>
+                        <a href={data.discordLink} className={styles.discord} target="_blank">
                             <Discord />
                             Join Discord
                         </a>

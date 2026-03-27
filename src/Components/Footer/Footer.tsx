@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import { Instagram, Twitter, Facebook, LinkedIn } from "./assets/svg";
+import { Instagram,LinkedIn } from "./assets/svg";
 import { ULearnWhite } from "../../assets/svg/svg";
 import data from "../../../data.json"
 
@@ -36,19 +36,11 @@ const Footer = () => {
                     <Instagram />
                     Instagram
                 </a>
-                <a href={data.twitter}>
-                    <Twitter />
-                    Twitter
-                </a>
-                <a href={data.facebook}>
-                    <Facebook />
-                    Facebook
-                </a>
             </div>
             <div className={styles.line}></div>
             <div className={styles.ptag}>
                 {" "}
-                <p>Copyright © 2023. All Rights Reserved.</p>
+                <p>Copyright © 2025. All Rights Reserved.</p>
                 <p>µLearn Foundation.</p>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { ULearn } from "../../assets/svg/svg";
 import { useReactPath } from "./path.hook.ts";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -8,11 +9,16 @@ import data from "../../../data.json";
 const Navbar = () => {
     const [openmenu, setopenmenu] = useState(false);
     const [navbg, setNavBg] = useState(false);
+    const location = useLocation();
+    
     function openMenu() {
         setopenmenu(!openmenu);
     }
     const path = useReactPath();
-    const navContent = ["home", "about", "gallery", "team", "contact"];
+    const navContent = ["home", "about", "achievements", "gallery", "team", "contact"];
+    
+    // Check if we're on a team member page
+    const isTeamMemberPage = location.pathname.startsWith('/team/');
     useEffect(() => { }, [path]);
     const changeNavBg = () => {
         window.scrollY >= 150 ? setNavBg(true) : setNavBg(false);
@@ -32,30 +38,52 @@ const Navbar = () => {
             }}
         >
             <div className={styles.navbarLeft}>
-                <a href="#home">
-                    <ULearn/>
-                    <p>{data.collegeCode}</p>
-                </a>
+                {isTeamMemberPage ? (
+                    <Link to="/">
+                        <ULearn/>
+                        <p>{data.collegeCode}</p>
+                    </Link>
+                ) : (
+                    <a href="#home">
+                        <ULearn/>
+                        <p>{data.collegeCode}</p>
+                    </a>
+                )}
             </div>
             <div className={styles.navbarRight}>
                 <div>
                     {navContent.map((content, i) => (
-                        <a href={`#${content}`} key={i.toString() + content}>
-                            <p
-                                style={{
-                                    borderBottom: window.location.href.includes(
-                                        `#${content}`
-                                    )
-                                        ? "4px solid #B3B3FF"
-                                        : "",
-                                    height: "18px",
-                                    fontSize: "18px",
-                                    fontWeight: 600,
-                                }}
-                            >
-                                {content}
-                            </p>
-                        </a>
+                        isTeamMemberPage ? (
+                            <a href={`/#${content}`} key={i.toString() + content}>
+                                <p
+                                    style={{
+                                        borderBottom: "",
+                                        height: "18px",
+                                        fontSize: "18px",
+                                        fontWeight: 600,
+                                    }}
+                                >
+                                    {content}
+                                </p>
+                            </a>
+                        ) : (
+                            <a href={`#${content}`} key={i.toString() + content}>
+                                <p
+                                    style={{
+                                        borderBottom: window.location.href.includes(
+                                            `#${content}`
+                                        )
+                                            ? "4px solid #B3B3FF"
+                                            : "",
+                                        height: "18px",
+                                        fontSize: "18px",
+                                        fontWeight: 600,
+                                    }}
+                                >
+                                    {content}
+                                </p>
+                            </a>
+                        )
                     ))}
                 </div>
                 <button>
@@ -70,24 +98,40 @@ const Navbar = () => {
                 {openmenu && (
                     <div>
                         {navContent.map((content, i) => (
-                            <a
-                                href={`#${content}`}
-                                key={i.toString() + content}
-                            >
-                                <p
-                                    style={{
-                                        borderBottom:
-                                            window.location.href.includes(
-                                                `#${content}`
-                                            )
-                                                ? "4px solid #B3B3FF"
-                                                : "",
-                                        height: "18px",
-                                    }}
+                            isTeamMemberPage ? (
+                                <a
+                                    href={`/#${content}`}
+                                    key={i.toString() + content}
                                 >
-                                    {content}
-                                </p>
-                            </a>
+                                    <p
+                                        style={{
+                                            borderBottom: "",
+                                            height: "18px",
+                                        }}
+                                    >
+                                        {content}
+                                    </p>
+                                </a>
+                            ) : (
+                                <a
+                                    href={`#${content}`}
+                                    key={i.toString() + content}
+                                >
+                                    <p
+                                        style={{
+                                            borderBottom:
+                                                window.location.href.includes(
+                                                    `#${content}`
+                                                )
+                                                    ? "4px solid #B3B3FF"
+                                                    : "",
+                                            height: "18px",
+                                        }}
+                                    >
+                                        {content}
+                                    </p>
+                                </a>
+                            )
                         ))}
                         <button>
                             <a href="http://app.mulearn.org">Join µlearn</a>
